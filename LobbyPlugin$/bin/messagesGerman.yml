@@ -1,0 +1,200 @@
+############################
+# Default Messages GERMAN #
+############################
+
+# Benutze %player% für den Spieler, %money% für das Geld, %prefix% für das Prefix'
+
+
+Messages:
+  joinTitle: '§bWillkommen auf §6deinserver.net'
+  joinSubtitle: '§3%player%'
+  
+  joinMessage: '§a» §6%player% hat §bden Server betreten§f!'
+  quitMessage: '§c« §6%player% hat §bden Server verlassen§f!'
+  
+  prefix: §f[§3Lobby§bReloaded§f]
+  
+  playerNotFound: '%prefix% §cDer Spieler %player% wurde nicht gefunden!'
+  
+  dailyReward:
+    setDailyReward: '%prefix% §aEin Tägliche-Belohnungen Dorfbewohner wurde erfonlgreich gesetzt'
+    removeDailyReward: '%prefix% §aAlle %number% Tägliche-Belohnungen Dorfbewohner wurden erfonlgreich entfernt'
+    dailyRewardVillagerName: 'Tägliche Belohnungen'
+    getDailyReward: '%prefix% §aDu hast %earned% coins bekommen. Du hast jetzt %money% coins'
+  
+  ping: 
+    you: '%prefix% §aDeine ping ist§f: §b%ping%'
+    other: '%prefix% §aDie ping von §6%player% §aist§f: §b%ping%'
+  
+  balance:
+    enterANumber: '%prefix% §cBitte gib eine Nummer ein'
+    
+  other:
+    playerNotFound: '%prefix% §cSpieler §b%player2% §cwurde nicht gefunden!'
+    
+  noPermission: '%prefix% §cDafür hat du keine Rechte!'
+  
+  pet:
+    noPet: '%prefix% §cDu hast kein Haustier!'
+    renamed: '%prefix% §aDer Name deines Haustiers ist jetzt§f: §6%name%'
+    
+  economy:
+    notEnoughMoney: '%prefix% §cDu hast nicht genug Geld!'
+    
+  visibility:
+    all: '%prefix% §fDu siehst jetzt §aalle §fSpieler!'
+    vip: '%prefix% §fDu siehst jetzt nur §dVIP §fSpieler!'
+    nobody: '%prefix% §fDu siehst jetzt §7keine §fSpieler mehr!'
+    
+  gamemode:
+    set: '%prefix% §aDu bist jetzt im §6%gamemode%§a!'
+    enterGamemode: '%prefix% §cBitte gib einen gültigen gamemode ein!'
+    
+  lobbyBoundsNotSet: '%prefix% §cDie Lobby Begrenzungen wurden nocht nicht gesetzt!'
+  spawnNotSet: '%prefix% §cDer Spawn wurde noch nicht gesetzt!'
+  spawnSet: '%prefix% §aDer Spawn wurde gesetzt!'
+  
+  msg:
+    prefix: '§f[§bMSG§f]'
+    enterName: '%prefix% §cBitte gib einen Namen an!'
+    enterMessage: '%prefix% §cBitte gib eine Nachricht an!'
+    messageFormat: '%msgprefix% §f[§eVon: §6%player%§f] §b%message%'
+    messageSendFormat: '%msgprefix% §f[§6An: §e%playerto%§f] §3%message%'
+  
+  fly:
+    enabled: '%prefix% §aDu kannst jetzt fliegen!'
+    disabled: '%prefix% §cDu kannst jetzt nicht mehr fliegen!'
+  
+  build:
+    enabled: '%prefix% §aDu kannst jetzt bauen!'
+    disabled: '%prefix% §cDu kannst jetzt nicht mehr bauen!'
+    
+  vanish:
+    enabled: '%prefix% §aDu bist jetzt unsichtbar!'
+    disabled: '%prefix% §cDu bist jetzt wieder sichtbar!'
+    
+  silenthub:
+    enabled: '%prefix% §aDu bist jetzt im silenthub!'
+    disabled: '%prefix% §cDu bist jetzt nicht mehr im silenthub!'
+    
+  tp:
+    falseLenght: '%prefix% §cDu musst einen Namen eingeben!'
+    removetp:
+      succeed: '%prefix% §aDer TP §6%tpname% §awurde erfolgreich entfernt!'
+      couldNotFind: '%prefix% §cDer TP §6%tpname% §cwurde nicht gefunden!'
+    
+  inventory:
+    teleporter: 'Teleporter'
+    visibility: 'Sichtbarkeit'
+    profiles: 'Profil'
+    silenthub: 'Stille Lobby'
+    meta:
+      teleporter: '§2Rechtsklick zum teleportieren!'
+      visibility: '§2Rechtsklick zum öffnen des Sichtbarkeits Inventar'
+      profiles: '§2Rechtsklick zum öffnen des Profil Inventar'
+      silenthub: '§2Rechtsklick um in die Stille-Lobby zu kommen'
+      
+  gui:
+    main:
+      title: '§aLobby Einstellungen'
+      pets: 'Haustiere'
+      particle: 'Partikel'
+      visibility: 'Sichtbarkeit'
+      armor: 'Kleidung'
+      gadget: 'Gadgets'
+    
+    DailyReward:
+      title: 'Tägliche Belohnungen'
+      info: 'Sammle deine täglichen Belohnungen'
+      recentGot: '§cKeine Belohnung verfügbar! Nächste Belohnung in %date%'
+      collectReward: '§aSammle deine %type% Belohnung'
+      unlockRewardVIP: '§cDu musst VIP oder höher sein'
+      unlockRewardVIPPlus: '§cDu musst MVIP oder VIPPlus sein'
+      days: 'Tag(e)'
+      
+    teleportEdit:
+      title: 'Ändere das Teleporter Inventar'
+      select: '§bKlicke mit einem Item deiner Wahl hier'
+      cancel: '§cAbbrechen'
+    teleportSort:
+      title: 'Sortiere das Teleporter Inventar'
+      save: '§aSpeichere das Inventar'
+      cancel: '§cAbbrechen'
+      slotNeg: '§aWeniger Slots'
+      slotInfo: '§bÄndere die Anzahl der Slots des Teleport-Inventar'
+      slotPos: '§cMehr Slots'
+    teleport:
+      title: '§aTeleporter:'
+    
+    particle:
+      title: 'Effekte'
+      info: 'Kaufe Partikel'
+      dripLava: 'Lava'
+      dripWater: 'Wasser'
+      crit: 'Kritischer Schlag'
+      lava: 'Funken'
+      heart: 'Herz'
+      note: 'Noten'
+      redstone: 'Farbenfroh'
+      slime: 'Schleim'
+      snowball: 'Schneeball'
+      spell: 'Zauber'
+      townaura: 'Schwarz'
+      villagerAngry: 'Wütender Dorfbewohner'
+      villagerHappy: 'Grün'
+      
+    visibility:
+      title: '§3Spieler Sichtbarkeit'
+      all: '§aAlle Spieler'
+      VIP: '§dNur VIPs '
+      nobody: 'Keine Spieler'
+      
+    pet:
+      title: 'Haustiere'
+      info: 'Kaufe Haustiere'
+      buy: 'Kaufe'
+      baby: 'Baby'
+      adult: 'Erwachsen'
+      wolf: 'Wolf'
+      sheep: 'Schaf'
+      chicken: 'Huhn'
+      horse: 'Pferd'
+      pig: 'Schwein'
+      cow: 'Kuh'
+      mooshroom: 'Pilzkuh'
+      ocelot: 'Katze'
+      rabbit: 'Hase'
+      villager: 'Dorfbewohner'
+      squid: 'Tintenfisch'
+      silverfish: 'Silberfisch'
+      ride: 'Reiten'
+      rename: 'Umbenennn'
+      remove: 'Entfernen'
+      hat: 'Hut'
+      anvilNametagName: 'Gib einen namen für dein Haustier ein'
+      anvilCancelName: 'Abbrechen'
+      
+    armor:
+      title: 'Rüstung'
+      helmet: 'Helm'
+      chestplate: 'Brustpanzer'
+      leggins: 'Hose'
+      boots: 'Schuhe'
+      diamond: 'Diamant'
+      gold: 'Gold'
+      iron: 'Eisen'
+      leather: 'Leder'
+      removeAll: 'Entferne die Rüstung'
+      
+    gadgets:
+      title: 'Gadgets'
+      doubleJump: 'Doppel Sprung'
+      doubleJumpDescription:
+      - '§fDoppelSprung %status%'
+      - ''
+      - '§aKlicke zum ein/ausschalten'
+      doubleJumpStatus:
+        enabled: '§aeingeschaltet'
+        disabled: '§causgeschaltet'
+    
+    nothingSelected: 'Nichts ausgewählt'

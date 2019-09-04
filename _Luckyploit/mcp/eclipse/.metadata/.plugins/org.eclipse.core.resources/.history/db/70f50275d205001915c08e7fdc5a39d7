@@ -1,0 +1,5 @@
+package at.mario.luckyploit.modules;
+
+public class ModuleManager {
+
+}

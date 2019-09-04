@@ -1,0 +1,11 @@
+name: PiratecraftReloaded
+author: Mario_Matschgi
+version: 1.0
+main: at.mario.piratecraft.Main
+description: Piratecraft plugin
+softdepend: [Vault, PlacehoderAPI, MultiverseCore]
+
+commands:
+  piratecraft:
+    description: Main command
+    aliases: [pc, pcr, piratecraftreloaded]

@@ -1,0 +1,9 @@
+############################
+# Default Messages GERMAN #
+############################
+
+# Benutze %prefix% für das Prefix
+
+
+Messages:
+  prefix: '§f[§bSupply§3package §3Reloaded§f]§r'

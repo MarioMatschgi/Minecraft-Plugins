@@ -1,0 +1,19 @@
+############################
+# Default Messages ENGLISH #
+############################
+
+# Use %prefix% for the prefix
+
+
+Messages:
+  prefix: '§f[§bXp§3Exchange §3Reloaded§f]§r'
+  
+  noPermission: '%prefix% §cYou dont have the permission to do this!'
+  
+  command:
+    playerNotOnline: '%prefix% §cThe player §6%player% §cis not online§f!'
+    noNumber: '%prefix% §cYou have to enter a number§f!'
+    enterNumberBiggerZero: '%prefix% §cYou have to enter a number bigger than 0§f!'
+    notEnoughXp: '%prefix% §cYou dont have enough xp.levels to transfere§f!'
+    successToTransferer: '%prefix% §aThe amount of §b%xp% §alevels has been transfered to player §b%player%§f!'
+    successToReceiver: '%prefix% §aYou have got §b%xp% §alevels from §b%player%§f!'

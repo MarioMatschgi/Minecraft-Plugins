@@ -1,0 +1,16 @@
+package at.mario.luckyploit.events;
+
+import com.darkmagician6.eventapi.events.Event;
+
+public class UpdateEvent implements Event {
+	
+	public boolean Cancelable;
+	
+	
+	public boolean isCancelable() {
+		return Cancelable;
+	}
+	public void setCancelable(boolean cancelable) {
+		Cancelable = cancelable;
+	}
+}

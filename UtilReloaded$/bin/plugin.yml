@@ -1,0 +1,30 @@
+name: Utilreloaded
+author: Mario_Matschgi
+version: 1.0
+main: at.mario.utilreloaded.Main
+description: Util plugin
+
+commands:
+  gm:
+    description: Gamemode command
+  fly:
+    description: Fly command
+    aliases: [gamemode]
+  dupeitem:
+    description: Dupe item in hand command
+    aliases: [dupe]
+  vanish:
+    description: Vanish command
+  enderchest:
+    description: Enderchest command
+    aliases: [ec]
+  repair:
+    description: Vanish command
+    aliases: [repairitem]
+  nightvision:
+    description: Nightvision command
+    aliases: [nv]
+  day:
+    description: Day command
+  night:
+    description: Night command

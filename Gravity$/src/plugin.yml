@@ -1,0 +1,10 @@
+name: GravityReloaded
+author: Mario_Matschgi
+version: 1.0
+main: at.mario.gravity.Main
+description: Gravity plugin
+
+commands:
+  gravity:
+    description: Main command
+    aliases: [gr, grav, gravityreloaded]

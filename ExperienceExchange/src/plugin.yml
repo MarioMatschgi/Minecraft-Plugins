@@ -1,0 +1,10 @@
+name: XpExchangeReloaded
+author: Mario_Matschgi
+version: 1.0
+main: at.mario.xpexchange.Main
+description: Xp exchange plugin
+
+commands:
+  xpexchange:
+    description: Main command
+    aliases: [exchange, exchangexp]

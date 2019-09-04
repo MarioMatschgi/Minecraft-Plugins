@@ -1,0 +1,8 @@
+package at.mario.luckyploit.utils;
+
+public class Logger {
+	
+	public void Loading(String text) {
+		
+	}
+}

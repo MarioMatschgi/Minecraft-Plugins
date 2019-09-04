@@ -1,0 +1,42 @@
+############################
+# Default Messages GERMAN #
+############################
+
+# Benutze %prefix% für das Prefix
+
+
+Messages:
+  prefix: '§f[§bLiefer§3Service §3Reloaded§f]§r'
+  
+  noPermission: '%prefix% §cDafür hat du keine Rechte!'
+  
+  itemNotFound: '%prefix% §cDas Item mit dem Namen §b"%item%" §cwurde nicht gefunden§f!'
+  enterNumber: '%prefix% §cDu musst eine positive Zahl eingeben§f!'
+  
+  newRequest:
+    new: '§nl§f----------------------------------------§nl§aEs gibt §6%amount% §aneue Bestellungen§f!§nl§f----------------------------------------'
+    newWhilePlaying: '§nl§f----------------------------------------§nl§aEs gibt eine neue Bestellung von §6%player%§nl§f----------------------------------------'
+    noNew: '§nl§f----------------------------------------§nl§cEs gibt keine neue Bestellungen§f!§nl§f----------------------------------------'
+  
+  command:
+    order:
+      enterAmount: '%prefix% §cDu musst die Menge§f, §cdie du bestellen möchtest eingeben§f!'
+      wrongMultiplier: '%prefix% §cDu musst ein Argument wie "stacks" or "items" eingeben'
+      success: '%prefix% §aDu hast erfolgreich %amount%%stacks% %item% bestellt§f!'
+    requests:
+      self:
+        deny: '%prefix% §aDu hast die Bestellung §6#%id% §avon §6%player% §awurde erfolgreich abgelehnt'
+        finished: '%prefix% §aDu hast erfonlgreich die Bestellung §6#%id% von §6%player% §aabgeschlossen§f!'
+      other:
+        deny: '%prefix% §cDeine Bestellung von §6%amount%%stacks% %item% §cwurde abgelehnt§f!'
+        finished: '%prefix% §aDeine Bestellung von §6%amount%%stacks% %item% §awurde zugestellt§f!'
+
+  gui:
+    requestsInventory:
+      title: '§6Bestellungen§f:'
+    optionsInventory: 
+      title: '§6Bestellungen§f: §cOptionen§f:'
+      deny: '§cAblehnen'
+      finish: '§aAbschließen'
+      inProgress: '§6Aktiviere den Zustellungsmodus'
+      back: '§6Zurück'

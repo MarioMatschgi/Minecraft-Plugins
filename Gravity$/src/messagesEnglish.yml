@@ -1,0 +1,284 @@
+############################
+# Default Messages ENGLISH #
+############################
+
+# Use %player% for Player, %money% for balance, %prefix% for the prefix'
+
+
+Messages:
+  prefix: §f[§aGravity §2Reloaded§f]§r
+  
+  noPermission: '%prefix% §cYou dont have the permission to do this!'
+  
+  enterANumber: '%prefix% §cPlease enter a number after §6%cmd%§f!'
+  enterANumberBetween: '%prefix% §cPlease enter a number between %num1% and %num2%§f!'
+  
+  playerNotFound: '%prefix% §cCould not find player §6%player%§f!'
+  lobbyJoinMessage: '%prefix% §6%player% §ajoined the game §7(%players%/%maxplayers%)§f!'
+  lobbyQuitMessage: '%prefix% §6%player% §aleft the game §7(%players%/%maxplayers%)§f!'
+  missingPlayersToStart: '%prefix% §2There are %missingplayers% more players needed to start§f!'
+  countdownBroadcast: '%prefix% §aStarting in §6%seconds% §aSecond(s)§f...'
+  gameOverBroadcast: '%prefix% §aRestarting in §6%seconds% §aSecond(s)§f...'
+  gameStarting: '%prefix% §aThe game is starting§f... §aTeleporting all players§f!'
+  enteredBlockedCommand: '%prefix% §cYou cant enter this command here§f!'
+  noPremiumJoin: '%prefix% §cThe arena is §6full§f! §cBuy premium on §6§nhttps://www.yourshop.net/premium'
+  noMainLobbySpawn: '%prefix% §cThere is no main-lobby-spawn set§f!'
+  notEnoughMaps: '%prefix% §cYou dont have enough Maps for playing§f! §7[§f%maps%/%minmaps%§§7]'
+  clickedVisibilityWhileCooldown: '%prefix% §cYou cant change the visibility while cooldown§f. §cPlease wait %seconds% seconds§f!'
+  chatFormat: '%prefix% %player% §f» §b%msg%'
+  chatFormatForNoneArena: '§f[%world%] <%player%§f> %msg%'
+  
+  scoreboard:
+    noPlayer: '§fWaiting...'
+    colorIfNoPlayer: '§7'
+    colorIfPlayer: '§a'
+    finished: '§aFinished§f!'
+  
+  difficultyColors:
+      easy: '§a'
+      medium: '§e'
+      hard: '§c'
+  
+  finish:
+    final:
+      player:
+        chat: '%prefix% §aYou finished the game§f! §aYour place§f: %placecolor%%place%§f.'
+        title: '§6§lYou finished§f§l!'
+        subtitle: '§eYour place§f: %placecolor%%place%'
+      other:
+        chat: '%prefix% §aPlayer §6%player% §afinished the game§f! §aHis place§f: %placecolor%%place%§f.'
+        title: '§6§lA player finished§f§l!'
+        subtitle: '§eThe game ends in §6%minutes% §eminutes and §6%seconds% §eseconds§f!'
+      placeColors:
+        first: '§6'
+        second: '§7'
+        third: '§e'
+        else: '§f'
+    stage:
+      player:
+        chat: '%prefix% §9You finished stage §b%stagenumber% §9in §1%seconds% §9seconds§f! /nl%prefix% §6Map §7» §b%mapname% /nl%prefix% §6Difficulty §7» §b%difficulty%'
+        title: '§fStage §7%stagenumber% §f- %difficultycolor%%mapname%'
+        subtitle: ''
+      other:
+        chat: '%prefix% §9Player §6%player% §9finished stage §b%stagenumber% §9in §1%seconds% §9seconds§f!'
+        title: ''
+        subtitle: ''
+  
+  actionbar:
+    ingame: '§fProgress §8» %color1%①%color2%②%color3%③%color4%④%color5%⑤ §7| §fFails §8» §c%fails%'
+    ingameLobby: '§fStages §8» %color1%%map1%§f, %color2%%map2%§f, %color3%%map3%§f, %color4%%map4%§f, %color5%%map5%'
+  
+  ingameLobby:
+    broadcast:
+      chat: '%prefix% §aThe game is starting in §6%seconds% §aseconds§f...'
+      title: '%numberInCircle%'
+    end: 
+      chat: '%prefix% §aThe game is starting§f!'
+      title: '§aThe game is starting§f!'
+      
+  lobbyitems:
+    leaveItem:
+      name: 'Leave'
+      lore:
+      - '§aRightclick to leave'
+      - '§aand go to the lobby§f!'
+    shopItem:
+      name: 'Shop'
+      lore:
+      - '§aRightclick to open'
+      - '§ashop menue§f!'
+    startItem:
+      name: 'Start'
+      lore:
+      - '§aRightclick to start'
+      - '§athe game§f!'
+  ingameitems:
+    resetItem:
+      name: '§7Restart'
+      lore:
+      - '§aRightclick to restart'
+      - '§athe stage§f!'
+    skipItem:
+      name: '§6Skip'
+      lore:
+      - '§aRightclick to skip'
+      - '§athe stage§f!'
+    visibilityItem:
+      all:
+        name: '§6All players §avisible'
+        lore:
+        - '§aRightclick to set'
+        - '§athe visibility to§f!'
+        - '§aall §7invisible§f!'
+      invisible:
+        name: '§6All players §7invisible'
+        lore:
+        - '§aRightclick to set'
+        - '§athe visibility to'
+        - '§aall §2visible§f!'
+  finishedItems:
+    leaveItem:
+      name: 'leave'
+      lore:
+      - '§aRightclick to leave'
+      - '§aand go to the lobby§f!'
+    teleporterItem:
+      name: 'Teleporter'
+      lore:
+      - '§aRightclick to open'
+      - '§ateleporter menue§f!'
+  
+  voteInfo:
+    hoverInfoFormat: '%color1%%map1%, %color2%%map2%, %color3%%map3%, %color4%%map4%, %color5%%map5%'
+    info:
+    - '%prefix% §l§6Vote for a Map§l§f:'
+    - '%prefix% §o§eHover for names, and click your choice§o§f!'
+    format:
+    - '%prefix% §e1§f. %color11%①§f, %color12%②§f, %color13%③§f, %color14%④§f, %color15%⑤§f, §7[§f%votes1% §7Votes]'
+    - '%prefix% §e2§f. %color21%①§f, %color22%②§f, %color23%③§f, %color24%④§f, %color25%⑤§f, §7[§f%votes2% §7Votes]'
+    - '%prefix% §e3§f. %color31%①§f, %color32%②§f, %color33%③§f, %color34%④§f, %color35%⑤§f, §7[§f%votes3% §7Votes]'
+    - '%prefix% §e4§f. %color41%①§f, %color42%②§f, %color43%③§f, %color44%④§f, %color45%⑤§f, §7[§f%votes4% §7Votes]'
+    - '%prefix% §e5§f. %color51%①§f, %color52%②§f, %color53%③§f, %color54%④§f, %color55%⑤§f, §7[§f%votes5% §7Votes]'
+  
+  joinme:
+    cantCreateJoinme: '%prefix% §cYou cant create a joinme§f!'
+    notEnoughJoinmePasses: '%prefix% §cYou dont have enough joinmePasses to create a joinme§f!'
+    alreadyAJoinme: '%prefix% §cThere is already a joinme started§f!'
+    hover: '§aClick here§f!'
+    message:
+    - '                                                                                '
+    - '&7%player% §6is playing Gravity on %arena%§f!'
+    - '                                                                                '
+    - '&7» §7[&e%players%&7§7/&e%minplayers%&7] §aplayer§f(§7s§f) online§f.'
+    - '                                                                                '
+    - '                                                                                '
+    - '§aClick here to join§f!'
+    - '                                                                                '
+  
+  stats:
+    format:
+    - '§f--------§2Gravity§f-----(§3Stats of §b%statsOf%§f)'
+    - '§eWins§f: §6%wins%'
+    - '§eLoses§f: §6%loses%'
+    - ' '
+    - '§eGames played§f: §6%gamesplayed%'
+    - ' '
+    - '§eFails§f: §6%fails%'
+    - '§f------------------------------------------------------'
+  
+  shop:
+    boughtJoinmePass: '%prefix% §aYou bought successfully 1 joinme pass§f.'
+  
+  win:
+    hidersChat: '%prefix% §aThe hiders won the game§f!'
+    hidersTitle: '§aYou won the game§f!'
+    hidersSubtitle: '§2The hiders won the game§f!'
+    
+    seekersChat: '%prefix% §aThe seekers won the game§f!'
+    seekersTitle: '§aYou won the game§f!'
+    seekersSubtitle: '§2The seekers won the game§f!'
+  lose:
+    hidersChat: '%prefix% §cThe hiders lost the game§f!'
+    hidersTitle: '§cYou lost the game§f!'
+    hidersSubtitle: '§4The hiders lost the game§f!'
+    
+    seekersChat: '%prefix% §cThe seekers lost the game§f!'
+    seekersTitle: '§cYou lost the game§f!'
+    seekersSubtitle: '§4The seekers lost the game§f!'
+    
+  economy:
+    notEnoughMoney: '%prefix% §cYou don''t have enough money§f!'
+  
+  sign:
+    format:
+      - '§6Gravity'
+      - '%status%'
+      - ''
+      - '§a%players%§f/§b%maxplayer%'
+    status:
+      running: '§bingame'
+      inLobby: '§ain lobby'
+      stopped: '§cStopped'
+  
+  command:
+    setMainLobby: '%prefix% §aSuccessfully set the mainlobby spawn§f!'
+    arena:
+      list:
+        format: '§eName§f: §6%arena%§f, §bStatus§f: §aCompleted§f, §3worldname§f: §b%worldname%'
+        noArenas: '§cYou do not have any arenas!'
+        arenaNotComplete: '§eName§f: §6%arena%§f, §bStatus§f: §cNot completed'
+      join:
+        sameArena: '%prefix% §cYou are already in the arena §6%arena%§f!'
+        cantJoin: '%prefix% §cYou cant join the arena §6%arena%§c!'
+      start:
+        gameAlreadyStarting: '%prefix% §cThe game is already starting§f!'
+        notEnoughPlayers: '%prefix% §cThere are not enough players to start the game§f!'
+      arenaNotFound: '%prefix% §cCould not find arena§f: §6%arena%§f!'
+      removed: '%prefix% §aSuccessfully removed arena §6%arena%§f!'
+      created: '%prefix% §aSuccessfully created arena §6%arena%§f!'
+      alreadyCreated: '%prefix% §cAlready created arena §6%arena%§f!'
+      setLobbySpawn: '%prefix% §aSuccessfully set the lobbyspawn for arena §6%arena%§f!'
+      info:
+      - '§eArenaname§f: §6%arena%'
+      - '§2Worldname§f: §a%worldname%'
+      - '§3Lobby spawn§f:'
+      - '§b%lobbyspawn%'
+      - '§1Bounds§f:'
+      - '§9%bounds%'
+      - '§eSpawn§f:'
+      - '§6%spawn%'
+    maps:
+      list:
+        format: '§eName§f: §6%map%§f, §bStatus§f: §aCompleted§f, §3Worldname§f: §b%worldname%'
+        noMaps: '§cYou do not have any maps!'
+        mapNotComplete: '§eName§f: §6%map%§f, §bStatus§f: §cNot completed'
+      mapNotFound: '%prefix% §cCould not find map§f: §6%map%§f!'
+      removed: '%prefix% §aSuccessfully removed map §6%map%§f!'
+      created: '%prefix% §aSuccessfully created map §6%map%§f!'
+      alreadyCreated: '%prefix% §cAlready created map §6%map%§f!'
+      setSpawn: '%prefix% §aSuccessfully set the spawn for map §6%map%§f!'
+      setGlasspos: '%prefix% §aSuccessfully set glasspos %pos% for map §6%map%§f!'
+      info:
+      - '§eMapname§f: §6%map%'
+      - '§2Worldname§f: §a%worldname%'
+      - '§1Glass positions§f:'
+      - '§9%bounds%'
+      - '§eSpawn§f:'
+      - '§6%spawn%'
+  gui:
+    mapsetup:
+      title: 'Map setup'
+      info: 'Map:'
+      setSpawn: 'Set spawn'
+      setGlasspos1: 'Set glass position 1'
+      setGlasspos2: 'Set glass position 2'
+      difficulties:
+        easy: '§aeasy'
+        medium: '§emedium'
+        hard: '§chard'
+      setDifficulty: 'Set difficulty'
+      setDifficultyLore:
+      - '§aDifficulty§f:'
+      - '%diffyculty%'
+    arenasetup:
+      title: 'Arena setup'
+      info: 'Arena:'
+      setLobbySpawn: 'Set lobbyspawn'
+      minPlayerPlus: 'Minimum Players + 1'
+      minPlayerInfo: 'Minimum Players: %minplayers%'
+      minPlayerNeg: 'Minimum Players - 1'
+      maxPlayerPlus: 'Maximum Players + 1'
+      maxPlayerInfo: 'Maximum Players: %maxplayers%'
+      maxPlayerNeg: 'Maximum Players - 1'
+    shop:
+      title: 'SHOP'
+      joinme:
+        name: 'Buy 1 joinme pass'
+        lore:
+        - 'Your joinme passes§f:'
+        - '           §6%joinmes%'
+    teleporter:
+      title: 'Leftclick to teleport'
+      playerHeadFormat: '%player%'
+      mapFormat: '%map%'
+      

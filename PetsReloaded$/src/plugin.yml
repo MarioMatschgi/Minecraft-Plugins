@@ -1,0 +1,11 @@
+name: PetsReloaded
+author: Mario_Matschgi
+version: 0.1
+main: at.mario.pets.Main
+description: Pets plugin
+softdepend: [Vault]
+
+commands:
+    pet:
+        description: Pet
+        aliases: [pets]

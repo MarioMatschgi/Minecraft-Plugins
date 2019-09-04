@@ -1,0 +1,25 @@
+############################
+# Default Messages ENGLISH #
+############################
+
+# Use %prefix% for the prefix
+
+
+Messages:
+  prefix: '§f[§bSupply§3package §3Reloaded§f]§r'
+  
+  successfullyLanded: '%prefix% §aYour supply crate has been landed at §6%x%§f, §6%y%§f, §6%z%§f!'
+  
+  command:
+    notEnoughArgs: '%prefix% §cYou didnt enter enough arguments§f! §cSyntax§f: §c/sp {call, flare, additem/add} {%player%, %probablitity%}'
+    wrongArgs: '%prefix% §cYou did enter wrong arguments§f! §cSyntax§f: §c/sp {call, flare, additem/add} {%player%, %probablitity%}'
+    successfullyAddedItem: '%prefix% §aYour successfully added the item§f!'
+    playerNotOnline: '%prefix% §cThe player §6%player% §cis not online§f!'
+    enterAProbabilty: '%prefix% §cPlease enter a probability after additem§f!'
+  items:
+    flareRocket:
+      name: '§6Flare rocket'
+      lore:
+      - '§aRightclick to set of a'
+      - '§afirework rocket and get'
+      - '§aa supply box'

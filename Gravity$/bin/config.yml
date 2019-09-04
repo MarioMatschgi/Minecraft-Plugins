@@ -1,0 +1,251 @@
+###################################
+#        General settings         #
+###################################
+
+Config:
+  language: English
+  # English, German, Deutsch
+  
+  lobbyCountdownLenght: 15
+  countdownBroadcastAt:
+  - 15
+  - 10
+  - 9
+  - 8
+  - 7
+  - 6
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+  
+  nextStageForFinishedPlayer: true
+   # If set to true the player will get teleported to the next stage if he walks in a portal
+   # If set to false the player wont get teleported to the next stage if he walks in a portal
+  lobbyIdleCountdownLenght: 20
+  levelAmount: 5
+  maxGameLenght: 20
+   # The maximum gamelength in MINUTES!
+  gameOverSound:
+    enabled: true
+    sound: ENDERDRAGON_GROWL
+  gameOverDelay: 15
+  gameOverBroadcastAt:
+  - 15
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+  
+  reduceTimeOnFirstFinish:
+    enabled: true
+    method: SETTO
+     # If set to SETTO the remaining time is SET to %value% seconds
+     # If set to REDUCE the remaining time is REDUCED by %value% seconds
+    value: 60
+  
+  finish:
+    final:
+      player:
+        chat:
+          enabled: true
+        title:
+          enabled: true
+          fadeIn: 1
+          stay: 5
+          fadeOut: 1
+      other:
+        chat:
+          enabled: true
+        title:
+          enabled: true
+          fadeIn: 1
+          stay: 5
+          fadeOut: 1
+    stage:
+      player:
+        chat:
+          enabled: true
+        title:
+          enabled: true
+          fadeIn: 1
+          stay: 3
+          fadeOut: 1
+      other:
+        chat:
+          enabled: true
+        title:
+          enabled: fasle
+          fadeIn: 1
+          stay: 3
+          fadeOut: 1
+        
+  skip:
+    enabled: true
+     # If set to true: If a player has a fail-number of a random number between %minimumFailsToSkip% and %maximumFailsToSkip% or if a player has failed %forceskipWithFails% he/she gets a skip item to skip tge level!
+    minimumFailsToSkip: 5
+    maximumFailsToSkip: 8
+    forceskipWithFails: 10
+  
+  gamemode:
+    # Available: 0, 1, 2, 3, survival, creative, adventure, spectator
+    lobby: survival
+    inGame: survival
+    ending: creative
+    spectator: creative
+  
+  add1LoseAtLeavingGame: true
+  sendStatsOnLeave: false
+  sendStatsOnGameend: true
+  teleportToMainLobbySpawn: true
+   # If set to true the players will get teleportet to the Mainlobbyspawn at leaving or game end
+   # If set to false the players will get teleportet to their last position at leaving or game end
+  
+  ingameLobbyWaitDuration: 10
+  ingameLobbyWaitBroadcastAt:
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+  
+  changeVisibilityCooldown: 3
+   # the cooldown in SECONDS. If set to -1, or 0, there is NO cooldown
+  
+  blockedCommands:
+    useAsWhitelist: false
+     # if set to false this commands will get blocked
+     # if set to true this commands won't get blocked
+    commands:
+    - 'blockedCommand1'
+    - 'blockedCommand2'
+  blockedCommandsForSpectator:
+    useAsWhitelist: false
+     # if set to false this commands will get blocked
+     # if set to true this commands won't get blocked
+    commands:
+    - 'blockedCommandForSpectator1'
+    - 'blockedCommandForSpectator2'
+    
+  unlimitedSeekerPassesWithPermission: true
+  
+  roleMessage:
+    fadeIn: 2
+    duration: 5
+    fadeOut: 2
+  
+  joinme:
+    character: 'BLOCK'
+     # Image Character
+     # Change this to change what
+     # character the image is made of.
+     ########
+     # Acceptable:
+     # - BLOCK
+     # - DARK_SHADE
+     # - MEDIUM_SHADE
+     # - LIGHT_SHADE
+
+    url: 'https://minepic.org/avatar/8/%uuid%'
+     # URL
+     # Where to get the picture from.
+     ########
+     # Variables:
+     # %uuid%   - Joined player's UUID
+     # %pname%  - Joined player's Username
+  
+    async: true
+     # Setting to true makes the picture generate
+     # on an async thread. This has less performance
+     # impact, but may delay the picture message.
+    
+  prices:
+    joinmePass: 1000
+    
+  lobbyitems:
+    leaveItem:
+      slot: 8
+       # slots begins at 0
+      material: SLIME_BALL
+      # Name in messages config!
+      # Lore in messages config!
+      amount: 1
+      damage: 0
+    shopItem:
+      slot: 4
+       # slots begins at 0
+      material: CHEST
+      # Name in messages config!
+      # Lore in messages config!
+      amount: 1
+      damage: 0
+    passItem:
+      slot: 0
+       # slots begins at 0
+      material: PAPER
+      # Name in messages config!
+      # Lore in messages config!
+      amount: 1
+      damage: 0
+    startItem:
+      slot: 2
+       # slots begins at 0
+      material: EMERALD
+      # Name in messages config!
+      # Lore in messages config!
+      amount: 1
+      damage: 0
+  ingameitems:
+    resetItem:
+      slot: 6
+       # slots begins at 0
+      material: INK_SACK
+      # Name in messages config!
+      # Lore in messages config!
+      amount: 1
+      damage: 1
+    skipItem:
+      slot: 4
+       # slots begins at 0
+      material: INK_SACK
+      # Name in messages config!
+      # Lore in messages config!
+      amount: 1
+      damage: 14
+    visibilityItem:
+      slot: 2
+       # slots begins at 0
+      all:
+        material: INK_SACK
+        # Name in messages config!
+        # Lore in messages config!
+        amount: 1
+        damage: 10
+      invisible:
+         # slots begins at 0
+        material: INK_SACK
+        # Name in messages config!
+        # Lore in messages config!
+        amount: 1
+        damage: 8
+  finishedItems:
+    leaveItem:
+      slot: 8
+       # slots begins at 0
+      material: SLIME_BALL
+      # Name in messages config!
+      # Lore in messages config!
+      amount: 1
+      damage: 0
+    teleporterItem:
+      slot: 0
+       # slots begins at 0
+      material: COMPASS
+      # Name in messages config!
+      # Lore in messages config!
+      amount: 1
+      damage: 0

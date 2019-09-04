@@ -1,0 +1,25 @@
+###################################
+#        General settings         #
+###################################
+
+Config:
+  # English, German, Deutsch
+  language: English
+  
+  lobbyCountdownLenght: 15
+  lobbyIdleCountdownLenght: 20
+  # The maximum gamelength in MINUTES!
+  maxGameLenght: 20
+  
+  countdownBroadcastAt:
+  - 15
+  - 10
+  - 9
+  - 8
+  - 7
+  - 6
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1

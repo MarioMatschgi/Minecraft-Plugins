@@ -1,0 +1,6 @@
+package at.mario.luckyploit;
+
+public class Luckyploit {
+	
+	public static final String CLIENT_NAME = "";
+}

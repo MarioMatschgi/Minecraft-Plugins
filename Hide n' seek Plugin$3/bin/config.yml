@@ -1,0 +1,7 @@
+###################################
+#        General settings         #
+###################################
+
+Config:
+  # English, German, Deutsch
+  language: English

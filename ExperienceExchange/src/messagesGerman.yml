@@ -1,0 +1,19 @@
+############################
+# Default Messages GERMAN #
+############################
+
+# Benutze %prefix% für das Prefix
+
+
+Messages:
+  prefix: '§f[§bXp§3Exchange §3Reloaded§f]§r'
+  
+  noPermission: '%prefix% §cDafür hat du keine Rechte!'
+  
+  command:
+    playerNotOnline: '%prefix% §cDer Spieler §6%player% §cist nicht online§f!'
+    noNumber: '%prefix% §cDu musst eine Zahl eingeben§f!'
+    enterNumberBiggerZero: '%prefix% §cDu musst eine Zahl größer als 0 eingeben'
+    notEnoughXp: '%prefix% §cDu hast nicht genug Xp-Level zum überweisen§f!'
+    successToTransferer: '%prefix% §aDer Betrag von §b%xp% §aLeveln wurde erfolgreich an §b%player% §aübertragen§f!'
+    successToReceiver: '%prefix% §aDir wurder ein Betrag von §b%xp% §aLeveln von §b%player% §aübertragen§f!'

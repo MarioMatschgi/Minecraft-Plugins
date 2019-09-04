@@ -1,0 +1,211 @@
+############################
+# Default Messages ENGLISH #
+############################
+
+# Use %player% for Player, %money% for balance, %prefix% for the prefix'
+
+
+Messages:
+  prefix: §f[§3Hide n seek §bReloaded§f]§r
+  
+  noPermission: '%prefix% §cYou dont have the permission to do this!'
+  
+  playerNotFound: '%prefix% §cCould not find player §6%player%§f!'
+  lobbyJoinMessage: '%prefix% §6%player% §ajoined the game §7(%players%/%maxplayers%)§f!'
+  lobbyQuitMessage: '%prefix% §6%player% §aleft the game §7(%players%/%maxplayers%)§f!'
+  missingPlayersToStart: '%prefix% §2There are %missingplayers% more players needed to start§f!'
+  countdownBroadcast: '%prefix% §aStarting in §6%seconds% §aSecond(s)§f...'
+  seekerWaitBroadcast: '%prefix% §aThe seeker is beeing released in §6%seconds% §aseconds§f...'
+  gameOverBroadcast: '%prefix% §aRestarting in §6%seconds% §aSecond(s)§f...'
+  seekerWaitEnd: '%prefix% §aThe seeker has been released§f!'
+  gameStarting: '%prefix% §aThe game is starting§f... §aTeleporting all players§f!'
+  enteredBlockedCommand: '%prefix% §cYou cant enter this command here§f!'
+  noPremiumJoin: '%prefix% §cThe arena is §6full§f! §cBuy premium on §6§nhttps://www.yourshop.net/premium'
+  noMainLobbySpawn: '%prefix% §cThere is no main-lobby-spawn set§f!'
+  
+  lobbyitems:
+    leaveItem:
+      name: 'leave'
+      lore:
+      - '§aRightclick to leave'
+      - '§aand go to the lobby§f!'
+    shopItem:
+      name: 'shop'
+      lore:
+      - '§aRightclick to open'
+      - '§ashop menue§f!'
+    passItem:
+      name: 'Use pass'
+      lore:
+      - '§aRightclick to open'
+      - '§apass menue§f!'
+    startItem:
+      name: 'start'
+      lore:
+      - '§aRightclick to start'
+      - '§athe game§f!'
+  ingameitems:
+    seekerStickItem:
+      name: 'Player hitter'
+      lore:
+      - '§aLeftclick to hit'
+      - '§aplayers to catch them§f!'
+  
+  joinme:
+    cantCreateJoinme: '%prefix% §cYou cant create a joinme§f!'
+    notEnoughJoinmePasses: '%prefix% §cYou dont have enough joinmePasses to create a joinme§f!'
+    alreadyAJoinme: '%prefix% §cThere is already a joinme started§f!'
+    hover: '§aClick here§f!'
+    message:
+    - '                                                                                '
+    - '&7%player% §6is playing Hide n seek on '
+    - '    %arena%§f!'
+    - '&7» §7[&e%players%&7§7/&e%minplayers%&7] §aplayer§f(§7s§f) online§f.'
+    - '                                                                                '
+    - '                                                                                '
+    - '§aClick here to join§f!'
+    - '                                                                                '
+  
+  seekerPasses:
+    usedPass1: '%prefix% §aYou successfully used a seeker-pass§f!'
+    notEnoughPasses: '%prefix% §cYou dont have enough seeker-pass§f!'
+    alreadyUsedPass: '%prefix% §cYou have already used a seeker-pass§f!'
+    youHaveUnlimited: '%prefix% §cYou have unlimited seeker-passes§f!'
+  
+  stats:
+    format:
+    - '§f--------§2Hide n seek§f---(§3Stats of §b%statsOf%§f)'
+    - '§eWins§f: §6%wins%'
+    - '§eLoses§f: §6%loses%'
+    - ' '
+    - '§eTimes you were seeker§f: §6%wasseeker%'
+    - '§eTimes you were hider§f: §6%washider%'
+    - ' '
+    - '§eTimes you were found§f: §6%gotfounded%'
+    - '§eHiders you found§f: §6%playersfound%'
+    - '§f------------------------------------------------------'
+  rewards:
+    format:
+    - '§f--------§2Hide n seek§f---(§3Rewards:%§f)'
+    - '§eMoney for surviving§f: §6%moneyPerMinuteOfSurviving%'
+    - '§eMoney for surviving til end§f: §6%moneyIfSurvivedTillEnd%'
+    - ' '
+    - '§eMoney for found players§f: §6%moneyPerFoundPlayer%'
+    - '§eMoney for wining as seeker§f: §6%moneyIfWinGame%'
+    - ' '
+    - '§eTotal§f: §6%total%'
+    - '§f------------------------------------------------------'
+  
+  roleMessage:
+    title:
+      hider: '§aYou are now §6HIDER§f!'
+      seeker: '§cYou are now §6SEEKER§f!'
+    subtitle:
+      hider: '§2Hide yourself as good as possible§f!'
+      seeker: '§4Find as many player as possible§f!'
+    hiderFound:
+      seeker: '%prefix% §aYou found player §6%hider%§f!'
+      hider: '%prefix% §aYou got found by player §6%seeker%§f!'
+      all: '%prefix% §2Player §6%seeker% §2found player §6%hider%§f!'
+  
+  shop:
+    boughtJoinmePass: '%prefix% §aYou bought successfully 1 joinme pass§f.'
+    boughtSeekerPass: '%prefix% §aYou bought successfully 1 seeker pass§f.'
+  
+  win:
+    hidersChat: '%prefix% §aThe hiders won the game§f!'
+    hidersTitle: '§aYou won the game§f!'
+    hidersSubtitle: '§2The hiders won the game§f!'
+    
+    seekersChat: '%prefix% §aThe seekers won the game§f!'
+    seekersTitle: '§aYou won the game§f!'
+    seekersSubtitle: '§2The seekers won the game§f!'
+  lose:
+    hidersChat: '%prefix% §cThe hiders lost the game§f!'
+    hidersTitle: '§cYou lost the game§f!'
+    hidersSubtitle: '§4The hiders lost the game§f!'
+    
+    seekersChat: '%prefix% §cThe seekers lost the game§f!'
+    seekersTitle: '§cYou lost the game§f!'
+    seekersSubtitle: '§4The seekers lost the game§f!'
+    
+  economy:
+    notEnoughMoney: '%prefix% §cYou don''t have enough money§f!'
+  
+  sign:
+    format:
+      - '§6Hide §en §6seek'
+      - '%status%'
+      - '%map%'
+      - '§a%players%§f/§b%maxplayer%'
+    status:
+      running: '§bingame'
+      inLobby: '§ain lobby'
+      stopped: '§cStopped'
+  
+  command:
+    setMainLobby: '%prefix% §aSuccessfully set the mainlobby spawn§f!'
+    arena:
+      list:
+        format: '§eName§f: §6%arena%§f, §bStatus§f: §aCompleted§f, §3worldname§f: §b%worldname%'
+        noArenas: '§cYou do not have any arenas!'
+        arenaNotComplete: '§eName§f: §6%arena%§f, §bStatus§f: §cNot completed'
+      join:
+        sameArena: '%prefix% §cYou are already in the arena §6%arena%§f!'
+        cantJoin: '%prefix% §cYou cant join the arena §6%arena%§c!'
+      start:
+        gameAlreadyStarting: '%prefix% §cThe game is already starting§f!'
+        notEnoughPlayers: '%prefix% §cThere are not enough players to start the game§f!'
+      arenaNotFound: '%prefix% §cCould not find arena§f: §6%arena%§f!'
+      removed: '%prefix% §aSuccessfully removed arena §6%arena%§f!'
+      created: '%prefix% §aSuccessfully created arena §6%arena%§f!'
+      alreadyCreated: '%prefix% §cAlready created arena §6%arena%§f!'
+      setLobbySpawn: '%prefix% §aSuccessfully set the lobbyspawn for arena §6%arena%§f!'
+      setSpawn: '%prefix% §aSuccessfully set the spawn for arena §6%arena%§f!'
+      setBound: '%prefix% §aSuccessfully set bound %bound% for arena §6%arena%§f!'
+      
+      info:
+      - '§eArenaname§f: §6%arena%'
+      - '§2Worldname§f: §a%worldname%'
+      - '§3Lobby spawn§f:'
+      - '§b%lobbyspawn%'
+      - '§1Bounds§f:'
+      - '§9%bounds%'
+      - '§eSpawn§f:'
+      - '§6%spawn%'
+  gui:
+    setup:
+      title: 'Arena setup'
+      info: 'Arena:'
+      setLobbySpawn: 'Set lobbyspawn'
+      setSpawn: 'Set spawn'
+      setBound1: 'Set bound 1'
+      setBound2: 'Set bound 2'
+      minPlayerPlus: 'Minimum Players + 1'
+      minPlayerInfo: 'Minimum Players: %minplayers%'
+      minPlayerNeg: 'Minimum Players - 1'
+      maxPlayerPlus: 'Maximum Players + 1'
+      maxPlayerInfo: 'Maximum Players: %maxplayers%'
+      maxPlayerNeg: 'Maximum Players - 1'
+      
+    pass:
+      title: 'Use pass'
+      usePass:
+        name: 'Use seeker pass'
+        lore:
+        - 'Your seeker passes§f:'
+        - '           §6%seekerpasses%'
+      
+    shop:
+      title: 'SHOP'
+      joinme:
+        name: 'Buy 1 joinme pass'
+        lore:
+        - 'Your joinme passes§f:'
+        - '           §6%joinmes%'
+      seeker:
+        name: 'Buy 1 seeker pass'
+        lore:
+        - 'Your seeker passes§f:'
+        - '           §6%seekerpasses%'
+        

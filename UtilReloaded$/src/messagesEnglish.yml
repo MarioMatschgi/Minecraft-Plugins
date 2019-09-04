@@ -1,0 +1,50 @@
+############################
+# Default Messages ENGLISH #
+############################
+
+# Use %prefix% for the prefix
+
+
+Messages:
+  prefix: '§f[§bUt§3il §3Reloaded§f]§r'
+  
+  noPermission: '%prefix% §cYou dont have the permission to do this!'
+  
+  joinMessage: '%prefix% §bThe Player §6%player% §bjoined the game§f!'
+  quitMessage: '%prefix% §bThe Player §6%player% §bleft the game§f!'
+  
+  ecTitle: '§kHO §r§6Your private enderchest'
+  
+  command:
+    playerNotOnline: '%prefix% §cThe player §6%player% §cis not online§f!'
+    gamemode:
+      invalidGamemode: '%prefix% §cYou have to enter a gamemode name or a number between 0 and 3§f!'
+      successfullyChangedGamemode: '%prefix% §aYour gamemode has been successfully changed to §6%gamemode%§f!'
+      successfullyChangedGamemodeOfOther: '%prefix% §aThe gamemode of §6%player% §ahas been successfully changed to §6%gamemode%§f!'
+    fly:
+      enabled: '%prefix% §aFlying §aenabled§f!'
+      disabled: '%prefix% §aFlying §cdisabled§f!'
+    dupeitem:
+      success: '%prefix% §aDuplication successfully§f!'
+      didntHoldInHand: '%prefix% §cYou have to hold the item you want to duplicate in your main-hand§f!'
+      didntEnterNumber: '%prefix% §cYou have to enter a Number bigger than 0§f!'
+    vanish:
+      enabled: '%prefix% §aYou are now vanished!'
+      disabled: '%prefix% §cYou are now visible!'
+    enderchest:
+      saved: '%prefix% §aYour enderchest has been saved§f!'
+    nightvision:
+      successSelf: '%prefix% §aYou have gotten nightvision§f!'
+      successSelfAuto: '%prefix% §aYour auto nightvision has been set to §b%autonightvision%§f!'
+      successSelfRemoved: '%prefix% §aYou have removed nightvision§f!'
+      successSelfDuration: '%prefix% §aYou have gotten nightvision for §b%duration% §aseconds§f!'
+      successOther: '%prefix% §aYou have given nightvision to §6%player%§f!'
+      successOtherAuto: '%prefix% §aYou set the auto nightvision of §6%player% §ato §b%autonightvision%§f!'
+      successOtherRemoved: '%prefix% §aYou have removed nightvision from §6%player%§f!'
+      successOtherDuration: '%prefix% §aYou have given nightvision to §6%player% §afor §b%duration% §aseconds§f!'
+    repair:
+      success: '%prefix% §aYour tool has been successfully repaired§f(§7repaired durability %repaireddurability% §f| §7cost xp: %xpcost%§f)!'
+    day:
+      success: '%prefix% §aThe time has been set to §6day §f(§7time§f: §7800§f)!'
+    night:
+      success: '%prefix% §aThe time has been set to §6night §f(§7time§f: §713000§f)!'

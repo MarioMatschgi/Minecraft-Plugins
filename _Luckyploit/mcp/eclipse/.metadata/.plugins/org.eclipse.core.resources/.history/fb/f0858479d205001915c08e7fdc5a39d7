@@ -1,0 +1,9 @@
+package at.mario.luckyploit.modules;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ModuleManager {
+	
+	public List<Module> modules = new ArrayList<>(); 
+}
