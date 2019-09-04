@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;at.mario.gravity.countdowns.SeekerReleaseCountdown&apos; to &apos;IngameLobbyCountdown&apos;&#x0A;- Original project: &apos;Gravity&apos;&#x0A;- Original element: &apos;at.mario.gravity.countdowns.SeekerReleaseCountdown&apos;&#x0A;- Renamed element: &apos;at.mario.gravity.countdowns.IngameLobbyCountdown&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SeekerReleaseCountdown&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;at.mario.gravity.countdowns{SeekerReleaseCountdown.java[SeekerReleaseCountdown" matchStrategy="1" name="IngameLobbyCountdown" qualified="false" references="true" similarDeclarations="false" stamp="1537361926928" textual="false" version="1.0"/>
+</session>

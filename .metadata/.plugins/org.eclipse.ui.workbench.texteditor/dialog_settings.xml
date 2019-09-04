@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="namecolor" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="namecolor"/>
+			<item value="namecolor.use"/>
+			<item value="config"/>
+			<item value="command"/>
+			<item value="prices"/>
+			<item value="giveInga"/>
+			<item value="remove"/>
+			<item value="Item."/>
+			<item value="Item"/>
+			<item value="start"/>
+			<item value="specta"/>
+			<item value="ingameI"/>
+			<item value="seekerp"/>
+			<item value="gui"/>
+			<item value="messagesGer"/>
+		</list>
+		<list key="replacehistory">
+			<item value="inventory"/>
+			<item value="§"/>
+			<item value="arenaName"/>
+			<item value="piratecraft."/>
+			<item value="masterbuilders."/>
+			<item value=""/>
+			<item value="gravity."/>
+			<item value="= mm.getMessages().getString(&quot;Messages.difficultyColors.hard&quot;);"/>
+			<item value="= mm.getMessages().getString(&quot;Messages.difficultyColors.easy&quot;);"/>
+			<item value="= mm.getMessages().getString(&quot;Messages.difficultyColors.medium&quot;);"/>
+			<item value="Main.getInstance()"/>
+			<item value="Main."/>
+			<item value="ArenaPlayerLevels"/>
+			<item value="Data.maps."/>
+			<item value="if (configSection != null) {&#x0A;&#x09;&#x09;&#x09;for (String key : configSection.getKeys(false)) {"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="636" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="409" key="DIALOG_HEIGHT"/>
+		<item value="1725" key="DIALOG_X_ORIGIN"/>
+		<item value="239" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

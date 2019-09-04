@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;at.mario.pets.manager.ConfigManagers.Messages&apos; to &apos;LobbyPlugin/src/at.mario.lobby.manager.ConfigManagers&apos;&#x0A;- Original project: &apos;PetsReloaded&apos;&#x0A;- Destination element: &apos;LobbyPlugin/src/at.mario.lobby.manager.ConfigManagers&apos;&#x0A;- Original element: &apos;PetsReloaded/src/at.mario.pets.manager.ConfigManagers.Messages&apos;" description="Copy package" destination="=LobbyPlugin/src&lt;at.mario.lobby.manager.ConfigManagers" element1="/src&lt;at.mario.pets.manager.ConfigManagers.Messages" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1529774220115" version="1.0"/>
+</session>

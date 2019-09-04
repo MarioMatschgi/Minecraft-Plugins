@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DayCMD.java&apos; to &apos;at.mario.utilreloaded.commands.DayCMD.java&apos;&#x0A;- Original project: &apos;UtilReloaded$ (1.14)&apos;&#x0A;- Destination element: &apos;at.mario.utilreloaded.commands.DayCMD.java&apos;&#x0A;- Original element: &apos;at.mario.utilreloaded.commands.DayCMD.java&apos;" description="Copy compilation unit" destination="/src&lt;at.mario.utilreloaded.commands{DayCMD.java" element1="/src&lt;at.mario.utilreloaded.commands{DayCMD.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1556535380624" units="1" version="1.0"/>
+</session>

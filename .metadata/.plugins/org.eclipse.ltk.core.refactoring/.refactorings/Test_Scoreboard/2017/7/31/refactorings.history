@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CMDparty.java&apos; to &apos;Countdown/src/de.mario.hs&apos;&#x0A;- Original project: &apos;Test_Scoreboard&apos;&#x0A;- Destination element: &apos;Countdown/src/de.mario.hs&apos;&#x0A;- Original element: &apos;de.mario.hs.CMDparty.java&apos;" description="Copy compilation unit" destination="=Countdown/src&lt;de.mario.hs" element1="/src&lt;de.mario.hs{CMDparty.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1501519888091" units="1" version="1.0"/>
+</session>

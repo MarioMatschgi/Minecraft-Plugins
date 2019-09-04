@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;InventoryClickListener.java&apos; to &apos;LieferserviceReloaded§/src/at.mario.lieferservice.listener&apos;&#x0A;- Original project: &apos;Hide n&apos; seek Plugin$&apos;&#x0A;- Destination element: &apos;LieferserviceReloaded§/src/at.mario.lieferservice.listener&apos;&#x0A;- Original element: &apos;at.mario.hidenseek.listener.InventoryClickListener.java&apos;" description="Copy compilation unit" destination="=LieferserviceReloaded§/src&lt;at.mario.lieferservice.listener" element1="/src&lt;at.mario.hidenseek.listener{InventoryClickListener.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1555340106568" units="1" version="1.0"/>
+</session>

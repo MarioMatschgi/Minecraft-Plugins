@@ -1,0 +1,19 @@
+package at.mario.testplugin.listener;
+
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerJoinEvent;
+
+import at.mario.testplugin.Main;
+
+public class PlayerJoinListener implements Listener {
+	
+	@EventHandler
+	public void onPlayerJoin(PlayerJoinEvent e) {
+		Player p = e.getPlayer();
+		
+		p.sendMessage("§f[SYSTEM] §bHallo§f, §6" + p.getName());
+		e.setJoinMessage("§bDer Spieler §6" + p.getName() + " §bhat das Netzwerk betreten§f!");
+	}
+}

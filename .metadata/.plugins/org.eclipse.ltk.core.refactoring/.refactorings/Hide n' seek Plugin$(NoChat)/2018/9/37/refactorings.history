@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SetupInventory.java&apos; to &apos;Gravity/src/at.mario.gravity.inventories&apos;&#x0A;- Original project: &apos;Hide n&apos; seek Plugin$&apos;&#x0A;- Destination element: &apos;Gravity/src/at.mario.gravity.inventories&apos;&#x0A;- Original element: &apos;at.mario.hidenseek.inventories.SetupInventory.java&apos;" description="Copy compilation unit" destination="=Gravity/src&lt;at.mario.gravity.inventories" element1="/src&lt;at.mario.hidenseek.inventories{SetupInventory.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1537086355388" units="1" version="1.0"/>
+</session>

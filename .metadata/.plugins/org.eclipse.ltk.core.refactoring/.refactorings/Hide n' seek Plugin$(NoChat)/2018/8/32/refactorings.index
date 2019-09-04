@@ -1,0 +1,3 @@
+1533563629446	Rename type 'Gamestate'
+1533636117776	Encapsulate field 'isRunning'
+1533637540353	Encapsulate field 'idleID'

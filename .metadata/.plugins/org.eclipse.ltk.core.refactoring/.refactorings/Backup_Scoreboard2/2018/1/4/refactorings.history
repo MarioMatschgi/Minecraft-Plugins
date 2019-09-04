@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;plugin.yml&apos; to &apos;Skyblock/src/Main&apos;&#x0A;- Original project: &apos;Backup_Scoreboard2&apos;&#x0A;- Destination element: &apos;Skyblock/src/Main&apos;&#x0A;- Original element: &apos;plugin.yml&apos;" description="Copy file" destination="=Skyblock/src&lt;Main" element1="src/plugin.yml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1516899587440" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;GamemodeTabCompleter.java&apos; to &apos;SupplyPackageReloaded/src/at.mario.supplypackagereloaded.commands&apos;&#x0A;- Original project: &apos;LobbyPlugin$6&apos;&#x0A;- Destination element: &apos;SupplyPackageReloaded/src/at.mario.supplypackagereloaded.commands&apos;&#x0A;- Original element: &apos;at.mario.lobby.commands.GamemodeTabCompleter.java&apos;" description="Copy compilation unit" destination="=SupplyPackageReloaded/src&lt;at.mario.supplypackagereloaded.commands" element1="/src&lt;at.mario.lobby.commands{GamemodeTabCompleter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1558125371843" units="1" version="1.0"/>
+</session>
