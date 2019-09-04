@@ -1,8 +1,0 @@
-package at.mario.luckyploit.modules;
-
-public class Module {
-	
-	private String name;
-	private String displayname;
-	private Category category;
-}

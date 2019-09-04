@@ -1,5 +1,0 @@
-package at.mario.luckyploit.events;
-
-public class UpdateEvent implements EventManager {
-
-}

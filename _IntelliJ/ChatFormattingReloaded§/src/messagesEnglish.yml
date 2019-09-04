@@ -1,9 +1,0 @@
-############################
-# Default Messages ENGLISH #
-############################
-
-# Use %prefix% for the prefix
-
-
-Messages:
-  prefix: '§f[§bChat§3Formatting §3Reloaded§f]§r'
