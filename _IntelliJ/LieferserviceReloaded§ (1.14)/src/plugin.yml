@@ -1,0 +1,12 @@
+name: lieferserviceReloaded
+author: Mario_Matschgi
+version: 1.0
+main: at.mario.lieferservice.Main
+description: Util plugin
+
+commands:
+  order:
+    description: Order command
+    aliases: [bestellen]
+  requests:
+    description: Requests command

@@ -1,0 +1,10 @@
+name: uGlow
+main: me.solarshrieking.uGlow.Main
+version: 0.13.0
+authors: [SolarShrieking]
+softdepend: [GlowAPI, PacketListenerApi]
+commands:
+  uGlow:
+    description: Main command of uGlow
+    usage: /uGlow [Color]
+

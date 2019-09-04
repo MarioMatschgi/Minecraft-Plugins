@@ -1,0 +1,13 @@
+package at.mario.luckyploit.utils;
+
+public class PlayerUtils {
+	
+	public static boolean aacdamage = false;
+	public static double  aacdamageValue;
+	private Minecraft mc
+	
+	public static void damagePlayer(double value) {
+		aacdamage = true;
+		aacdamageValue = value + 2.85D;
+	}
+}

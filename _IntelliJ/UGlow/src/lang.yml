@@ -1,0 +1,64 @@
+# ------ README ------
+# This file can be used to configure almost every message sent to players in game. When you have
+# finished modifying the lang.yml, please use /uGlow reload for your changes to apply.
+# ------ FORMATTING CODES ------
+# You can color your messages by using minecraft formatting codes
+# Full list of available formatting codes here: http://wiki.ess3.net/mc/
+# ------ PLACEHOLDERS ------
+# Some messages can have placeholders in them. The available placeholders are as follows:
+# %p : Sender or target player, depending on context
+# %color: Color inputted.
+# %colorlist: Used in invalidGlowColor. Inputs list of valid colors to choose from.
+# %version: Gets the plugin version.
+# %plugin: Gets the plugin name.
+# ------ MESSAGES ------
+# pluginPrefix:         Inserted Before Every Message.
+# playerGlowOn:         When a player toggles their glow on.
+# playerGlowOff:        When a player toggles their glow off.
+# playerGlowOnJoin:     Message Sent to player on join if their glow status is "true".
+# playerGlowAlready:    Player is already glowing when trying to toggle their glow on.
+# playerGlowNotGlowing: Player isn't glowing when trying to toggle their glow off.
+# playerGlowColor:      Sent to player when they change their glow color.
+# invalidGlowColor:     Player has entered an invalid glow color
+# listGlowColor:        List of glowcolors used in invalidGlowColor. Use with %colorlist.
+# otherGlowOn:          Player has toggled another's glow on.
+# otherGlowOff:         Player has toggled another's glow off.
+# otherGlowAlready:     Other player is already glowing.
+# otherGlowNotGlowing:  Other player isn't glowing.
+# otherGlowColor:       Sent when player toggles another's glow color
+# rainbowInvalidTicks:  Rainbow command ticks invalid time
+# noPerm:               Player doesn't have permission to use this command
+# mainHeader: "&a&m&l+-------- &euGlow&a&m&l --------+"
+# mainOnOff: "&b/uGlow [on|off]:     Toggle your glow status!"
+# mainColor: "&b/uGlow [color]:      Change your glow color!"
+# mainSpecial: "&b/uGlow [rainbow]:   Change your special glows!"
+# entityNull:           Given when a player isn't looking at an entity during /uGlow entity
+
+pluginPrefix: "&7[&auGlow&7]&b "
+pluginReload: "&aPlugin has been reloaded!"
+playerGlowOn: "&aYour glow has been toggled ON"
+playerGlowOff: "&cYour glow has been toggled OFF"
+playerGlowOnJoin: "&aYour glowing status has been restored!"
+playerGlowAlready: "&cYou are already glowing!"
+playerGlowNotGlowing: "&cYou aren't glowing!"
+playerGlowColor: "&cYou have set your glow color to %color!"
+
+invalidGlowColor: "Invalid Color! Please use one of the following -  %colorlist"
+listGlowColor: "Aqua, Black, Blue, Dark_Aqua, Dark_Blue, Dark_Gray, Dark_Green, Dark_Purple, Dark_Red, Gold, Gray, Green, Red, White, Yellow, Rainbow"
+
+otherGlowOn: "&aYou have toggled %p's glow ON!"
+otherGlowOff: "&cYou have toggled %p's glow OFF"
+otherGlowAlready: "&c%p is already glowing!"
+otherGlowNotGlowing: "&c%p isn't glowing!"
+otherGlowColor: "&cYou have set %p's glow color to %color!"
+otherGlowOffline: "&c%p is either offline or does not exist!"
+
+rainbowInvalidTicks: "&cTick count must be above 1L!"
+noPerm: "&cYou do not have permission to use this command!"
+
+mainHeader: "&a&m&l+-------- &e%plugin v%version&a&m&l --------+"
+mainOnOff: "&b/uGlow [on|off]:     Toggle your glow status!"
+mainColor: "&b/uGlow [color]:      Change your glow color!"
+mainSpecial: "&b/uGlow [rainbow]:   Change your special glows!"
+
+entityNull: "&cPlease look at an entity while running this command!"

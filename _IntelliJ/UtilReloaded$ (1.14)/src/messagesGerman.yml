@@ -1,0 +1,53 @@
+############################
+# Default Messages GERMAN #
+############################
+
+# Benutze %prefix% für das Prefix
+
+
+Messages:
+  prefix: '§f[§bUt§3il §3Reloaded§f]§r'
+  
+  noPermission: '%prefix% §cDafür hat du keine Rechte!'
+  
+  joinMessage: '%prefix% §bDer Spieler §6%player% §bhat das Spiel betreten§f!'
+  quitMessage: '%prefix% §bDer Spieler §6%player% §bhat das Spiel verlassen§f!'
+  
+  ecTitle: '§kHO §r§6Deine Private Enderkiste'
+  
+  command:
+    playerNotOnline: '%prefix% §cDer Spieler §6%player% §cist nicht online§f!'
+    gamemode:
+      invalidGamemode: '%prefix% §cDu musst einen Gamemode namen oder eine Zahl zwischen 0 und 3 eingeben§f!'
+      successfullyChangedGamemode: '%prefix% §aDein Gamemode wurde erfolgreich zu  §6%gamemode% §ageändert§f!'
+      successfullyChangedGamemodeOfOther: '%prefix% §aDer Gamemode von §6%player% §awurde erfolgreich zu §6%gamemode% §ageändert§f!'
+    fly:
+      enabled: '%prefix% §aFliegen §aeingeschaltet§f!'
+      disabled: '%prefix% §aFliegen §causgeschaltet§f!'
+    dupeitem:
+      success: '%prefix% §aDuplizierung erfolgreich§f!'
+      didntHoldInHand: '%prefix% §cDu musst das Item, welches du duplizieren möchtest in deiner Mein-Hand halten§f!'
+      didntEnterNumber: '%prefix% §cDu musst eine Zahl, welche größer als 0 ist eingeben§f!'
+    vanish:
+      enabled: '%prefix% §aDu bist jetzt unsichtbar!'
+      disabled: '%prefix% §cDu bist jetzt wieder sichtbar!'
+    enderchest:
+      saved: '%prefix% §aDeine Enderkiste wurde gespeichert§f!'
+    nightvision:
+      successSelf: '%prefix% §aDu hast Nachtsicht bekommen§f!'
+      successSelfAuto: '%prefix% §aDeine automatische Nachtsicht wurde auf §b%autonightvision% §agesetzt§f!'
+      successSelfRemoved: '%prefix% §aDu hast deine Nachtsicht entfernt§f!'
+      successSelfDuration: '%prefix% §aDu hast Nachtsicht für §b%duration% §aSekunden bekommen§f!'
+      successOther: '%prefix% §aDu hast §6%player% §aNachtsicht gegeben§f!'
+      successOtherAuto: '%prefix% §aDu hast die automatische Nachtsicht von §6%player% §aauf §b%autonightvision% §agesetzt§f!'
+      successOtherRemoved: '%prefix% §aDu hast §6%player% §aseine Nachtsicht entfernt§f!'
+      successOtherDuration: '%prefix% §aDu hast §6%player% §aNachtsicht §afür §b%duration% §aSekunden gegeben§f!'
+    repair:
+      success: '%prefix% §aDein Werkzeug wurde reperiert§f(§7reperierte Haltbarkeit %repaireddurability% §f| §7Xp-Kosten: %xpcost%§f)!'
+    day:
+      success: '%prefix% §aDie Zeit wurde auf §6Tag §agesetzt §f(§7Zeit§f: §7800§f)!'
+    night:
+      success: '%prefix% §aDie Zeit wurde auf §6Nacht §agesetzt §f(§7Zeit§f: §713000§f)!'
+    ping:
+      self: '%prefix% §aDeine Ping ist §6%ping%§f!'
+      other: '%prefix% §aDie Ping von §6%player% §aist §6%ping%§f!'

@@ -1,0 +1,17 @@
+name: TestPlugin
+author: Mario_Matschgi
+version: 1.0
+main: at.mario.testplugin.Main
+description: Test plugin
+
+commands:
+  heal:
+    description: Heal Player command
+    aliases: [heilen]
+  addtp:
+    description: Add tps
+  removetp:
+    description: Remove tps
+  inventory:
+    description: Inventory
+    aliases: [inv]

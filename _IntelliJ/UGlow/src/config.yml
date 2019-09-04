@@ -1,0 +1,44 @@
+# Default Configuration File for uGlow
+# ---------------------------------------------------------
+# Plugin Information:
+#    uGlow by SolarShrieking
+#      version: 0.13.0
+#      download: https://www.spigotmc.org/resources/19520/
+# ---------------------------------------------------------
+# APIs: [Note, these are NO LONGER required for you to download and place in /plugins,
+#       they come prepackaged automagically!]
+#   GlowAPI by inventivetalent
+#     version: 1.4.2
+#     site:  https://www.spigotmc.org/resources/19422/
+#   PacketListenerAPI by inventivetalent
+#     version: 3.4.2
+#     site: https://www.spigotmc.org/resources/2930/
+#   APIManager by inventivetalent
+#     version: 1.0.2
+#     site: https://www.spigotmc.org/resources/19738/
+# ---------------------------------------------------------
+# Default Config Options, includes commented explanations
+# settings:
+#   customAlias:     Let uGlow utilize a custom command!
+#   rainbowTicks:    Specify the interval in ticks (20t = 1 second) between switching colors during the rainbow effect
+#   keepGlowOnLogin: True/False whether or not players should log in retaining their glow effect. This may cause small issues.
+# customPattern:     Define a custom pattern for players on your server to use! acts as a color, /uglow custom to select.
+#   ticks:           Interval in ticks between iterating through the custom colors list
+#   colors:          List of colors to be used in the custom pattern. Please use AT LEAST two colors in this list.
+settings:
+  customAlias: uGlow
+  rainbow-ticks: 10
+  keepGlowOnLogin: false
+customPattern:
+  ticks: 10
+  colors:
+  - RED
+  - GOLD
+  - YELLOW
+  - GREEN
+  - BLUE
+  - DARK_PURPLE
+# DO NOT EDIT the below section! This is where all playerdata is currently kept!
+Players:
+
+

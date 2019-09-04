@@ -1,0 +1,10 @@
+name: SupplypackageReloaded
+author: Mario_Matschgi
+version: 1.0
+main: at.mario.supplypackagereloaded.Main
+description: Supplypackage plugin
+
+commands:
+  supplypackage:
+    description: supplypackage command
+    aliases: [sp, supply]

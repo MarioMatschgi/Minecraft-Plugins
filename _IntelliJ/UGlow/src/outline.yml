@@ -1,0 +1,37 @@
+##  /uGlow:
+##    reload:
+##    on:
+##    off:
+##    color:
+##      Aqua
+##      Black
+##      Blue
+##      Dark_Aqua
+##      Dark_Blue
+##      Dark_Grey
+##      Dark_Green
+##      Dark_Purple
+##      Dark_Red
+##      Gold
+##      Gray
+##      Green
+##      Red
+##      White
+##      Yellow
+##    others:
+##      on:
+##      off:
+##      color:
+##
+##
+##    Rainbow(Player player, Long ticks)
+##
+##    glowStatus(Player player)
+##
+##    glowColor(Player player)
+##
+##    cancelTask(Player player)
+##
+##    setGlowStatus(Player player, Boolean glowBoolean)
+##
+##    setGlowing(Player player)

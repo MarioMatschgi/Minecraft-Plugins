@@ -1,0 +1,200 @@
+############################
+# Default Messages ENGLISH #
+############################
+
+# Use %player% for Player, %money% for balance, %prefix% for the prefix'
+
+
+Messages:    
+  joinTitle: '§bWelcome on §6yourserver.net'
+  joinSubtitle: '§3%player%'
+  
+  joinMessage: '§a» §6%player% §bjoined the Game!'
+  quitMessage: '§c« §6%player% §bleft the Game!'
+  
+  prefix: '§f[§3Lobby§bReloaded§f]'
+  
+  playerNotFound: '%prefix% §cPlayer %player% has not been found!'
+  
+  dailyReward:
+    setDailyReward: '%prefix% §aSuccessfully set a daily-reward Villager'
+    removeDailyReward: '%prefix% §aSuccessfully removed all %number% daily-reward Villager'
+    dailyRewardVillagerName: 'Daily Rewards'
+    getDailyReward: '%prefix% §aYou get %earned% coins. Your balance is now %money% coins'
+  
+  ping: 
+    you: '%prefix% §aYour ping is§f: §b%ping%'
+    other: '%prefix% §aThe ping of §6%player% §ais§f: §b%ping%'
+  
+  balance:
+    enterANumber: '%prefix% §cPlease enter a number'
+    
+  other:
+    playerNotFound: '%prefix% §cPlayer §b%player2% §ccould not be found!'
+    
+  noPermission: '%prefix% §cYou dont have the permission to do this!'
+  
+  pet:
+    noPet: '%prefix% §cYou do not have a pet!'
+    renamed: '%prefix% §aThe name of your pet is now§f: §6%name%'
+    
+  economy:
+    notEnoughMoney: '%prefix% §cYou don''t have enough money!'
+    
+  visibility:
+    all: '%prefix% §fYou are now seeing §aall §fplayers'
+    vip: '%prefix% §fYou are now seeing only §dVIP §fplayers'
+    nobody: '%prefix% §fYou are now seeing §7no §fplayers'
+    
+  gamemode:
+    set: '%prefix% §aYour gamemode is now §6%gamemode%§a!'
+    enterGamemode: '%prefix% §cPlease enter a valid gamemode!'
+    
+  lobbyBoundsNotSet: '%prefix% §cThe lobby bounds have not been set!'
+  spawnNotSet: '%prefix% §cThe Spawn has not been set!'
+  spawnSet: '%prefix% §aThe spawn has been successfully set!'
+  
+  msg:
+    prefix: '§f[§bMSG§f]'
+    enterName: '%prefix% §cPlease enter a playername!'
+    enterMessage: '%prefix% §cPlease enter a message!'
+    messageFormat: '%msgprefix% §f[§eFrom: §6%player%§f] §b%message%'
+    messageSendFormat: '%msgprefix% §f[§6To: §e%playerto%§f] §3%message%'
+  
+  fly:
+    enabled: '%prefix% §aYou can now fly!'
+    disabled: '%prefix% §cYou can''t fly anymore!'
+  
+  build:
+    enabled: '%prefix% §aYou can now build!'
+    disabled: '%prefix% §cYou can''t build anymore!'
+    
+  vanish:
+    enabled: '%prefix% §aYou are now vanished!'
+    disabled: '%prefix% §cYou are now visible!'
+    
+  silenthub:
+    enabled: '%prefix% §aYou are now in the silenthub!'
+    disabled: '%prefix% §cYou are no longer the silenthub!'
+    
+  tp:
+    falseLenght: '%prefix% §cYou have to enter a name after!'
+    removetp:
+      succeed: '%prefix% §aSuccessfully removed TP §6%tpname%'
+      couldNotFind: '%prefix% §cCould not find TP §6%tpname%'
+  
+  inventory:
+    teleporter: 'Teleporter'
+    visibility: 'Visibility'
+    profiles: 'Profile'
+    silenthub: 'Silenthub'
+    meta:
+      teleporter: '§2Rightclick to teleport!'
+      visibility: '§2Rightclick to open your visibility inventory'
+      profiles: '§2Rightclick to open profile inventory'
+      silenthub: '§2Rightclick to go into the silenthub'
+      
+  gui:
+    main:
+      title: '§aLobby Settings'
+      pets: 'Pets'
+      particle: 'Particles'
+      visibility: 'Visibility'
+      armor: 'Armor'
+      gadget: 'Gadgets'
+    
+    DailyReward:
+      title: 'Daily Rewards'
+      info: 'Colect your daily rewards'
+      recentGot: '§cNo reward available! Next reward in %date%'
+      collectReward: '§aCollect your %type% reward'
+      unlockRewardVIP: '§cYou have to be VIP or higher'
+      unlockRewardVIPPlus: '§cYou have to be MVIP or VIPPlus'
+      days: 'day(s)'
+    
+    teleportEdit:
+      title: '§aEdit teleport inventory'
+      select: '§bClick with an item of your choose here'
+      cancel: '§cCancel'
+    teleportSort:
+      title: '§aSort teleport inventory'
+      save: '§aSave Inventory'
+      cancel: '§cCancel'
+      slotNeg: '§aLess slots'
+      slotInfo: '§bChange the number of slots of the teleport inventory'
+      slotPos: '§cMore slots'
+    teleport:
+      title: '§aTeleporter:'
+    
+    particle:
+      title: 'Particle'
+      info: 'Buy Particle'
+      dripLava: 'Lava'
+      dripWater: 'Water'
+      crit: 'Critical hit'
+      lava: 'Sparks'
+      heart: 'Heart'
+      note: 'Note'
+      redstone: 'Colorful'
+      slime: 'Slime'
+      snowball: 'Snowball'
+      spell: 'Spell'
+      townaura: 'Black'
+      villagerAngry: 'Angry Villager'
+      villagerHappy: 'Green'
+      
+    visibility:
+      title: '§3Player Visiblility'
+      all: '§aAll Players'
+      VIP: '§dVIPs only '
+      nobody: 'Nobody'
+      
+    pet:
+      title: 'Pets'
+      info: 'Buy pets'
+      buy: 'Buy'
+      baby: 'Baby'
+      adult: 'Adult'
+      wolf: 'Wolf'
+      sheep: 'Sheep'
+      chicken: 'Chicken'
+      horse: 'Horse'
+      pig: 'Pig'
+      cow: 'Cow'
+      mooshroom: 'Mooshroom'
+      ocelot: 'Ocelot'
+      rabbit: 'Rabbit'
+      villager: 'Villager'
+      squid: 'Squid'
+      silverfish: 'Silverfish'
+      ride: 'Ride'
+      rename: 'Rename'
+      remove: 'Remove'
+      hat: 'Hat'
+      anvilNametagName: 'Enter a name for your pet'
+      anvilCancelName: 'Cancel'
+      
+    armor:
+      title: 'Armor'
+      helmet: 'helmet'
+      chestplate: 'chestplate'
+      leggins: 'leggins'
+      boots: 'boots'
+      diamond: 'Diamond'
+      gold: 'Gold'
+      iron: 'Iron'
+      leather: 'Leather'
+      removeAll: 'remove all armor'
+      
+    gadgets:
+      title: 'Gadgets'
+      doubleJump: 'DoubleJump'
+      doubleJumpDescription:
+      - '§fDoubleJump %status%'
+      - ''
+      - '§aClick to enable/disable'
+      doubleJumpStatus:
+        enabled: '§aenabled'
+        disabled: '§cdisabled'
+      
+    nothingSelected: 'Nothing selected'

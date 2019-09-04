@@ -1,0 +1,114 @@
+###########################
+# Chat broadcast settings #
+###########################
+chat:
+  enabled: true
+  delay: 60
+  prefix:
+    enabled: true
+    value: '&f[§6Broadcast§f]&r'
+  suffix:
+    enabled: false
+    value: ' - '
+  randomizeMessages: false
+  requireOnlinePlayers: true
+  showMessagesInConsole: false
+  messages:
+    default:
+    - "§fLobby plugin by §bMario§f_§3Matschgi"
+    - "§fSecond §kMessage"
+    some.permission.node:
+    - ""
+
+###################################
+#          MySQL settings         #
+# Also used for boss bar messages #
+#  and the ignore list function   #
+#                                 #
+#     NOT FULLY SUPPORTED!!!      #
+###################################
+mysql:
+  use: false
+  host: localhost
+  port: 3306
+  user: username
+  password: password
+  database: minecraft
+
+###################################
+#          other settings         #
+###################################
+
+Config:
+  # English, German, Deutsch
+  language: English
+
+  spawnAtLobbyspawn: true
+  spawnPetAtSpawn: true
+  spawnParticleAtSpawn: true
+  joinTitle: true
+  customJoinMessage: true
+  customQuitMessage: true
+  
+  gm:
+    enabled: true
+    
+  dailyRewards:
+    # The ammount of coins you get for free reward
+    freeReward: 250
+    # The ammount of coins you get for VIP reward
+    VIPReward: 2000
+    # The ammount of coins you get for MVIP/VIPPlus reward
+    MVIPReward: 10000
+  
+  pet:
+    enabled: true
+    price:
+      wolf: '10000'
+      sheep: '15000'
+      chicken: '5000'
+      horse: '20000'
+      pig: '10000'
+      cow: '8000'
+      mooshroom: '10000'
+      ocelot: '10000'
+      rabbit: '10000'
+      villager: '10000'
+      squid: '20000'
+      silverfish: '10000'
+      
+  particle:
+    price:
+      dripLava: '5000'
+      dripWater: '5000'
+      heart: '2000'
+      lava: '2000'
+      note: '1000'
+      redstone: '1000'
+      slime: '1000'
+      snowball: '1000'
+      spell: '1000'
+      townaura: '1000'
+      villagerAngry: '2000'
+      villagerHappy: '1000'
+      
+  armor:
+    price:
+      diamond: '5000'
+      gold: '3000'
+      iron: '2000'
+      leather: '1000'
+     
+  # NOTE: The number have to be divisible by 9 and maximum 54
+  # I don't recommend to edit manually
+  teleportInventorySize: 36
+      
+      
+      
+###################################
+#   Sometimes NOT SUPPORTED!!!    #
+###################################
+general:
+  updater:
+    checkForUpdates: false
+    auto-download: false

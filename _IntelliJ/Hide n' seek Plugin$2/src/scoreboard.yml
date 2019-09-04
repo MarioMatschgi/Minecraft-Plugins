@@ -1,0 +1,7 @@
+############################
+#    Scoreboard Config     #
+############################
+
+# Use %player% for Player, %money% for balance, %rank% for rank
+
+Scoreboard:

@@ -1,0 +1,21 @@
+###################################
+#        General settings         #
+###################################
+
+Config:
+  language: English
+  # English, German, Deutsch
+  
+  plopUpdateRate: 10
+  # Change this to higer value for a very small lagg improvement; it will change the value of the testing of respawning the falling block landing and breaking on slabs etc.
+  
+  blockProtection: 300
+  # Change this if you want to change the durartion of the protection (in seconds) against other players
+  
+  maxSpawnHeight: 200
+  # This is the spawn height of the falling box
+  
+  fallingBlockMaterial: NOTE_BLOCK
+  landedBlockMaterial: BEACON
+  # Check this link for a list of materials: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Material.html
+  # NOTE: link is for 1.8, if some name dont work, seach on google, i didnt find a list for 1.12; It should be very litte difference though

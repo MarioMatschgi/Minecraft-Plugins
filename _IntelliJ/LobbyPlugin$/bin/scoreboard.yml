@@ -1,0 +1,36 @@
+############################
+#    Scoreboard Config     #
+############################
+
+# Use %player% for Player, %money% for balance, %rank% for rank
+
+Scoreboard: 
+  enabled: true
+  # The time it takes to change in TICKS // 20 TICKS is 1 second
+  time: 20
+  # Region: world tablist in the whole world, lobby tablist in the whole lobby, server tablist on the whole server
+  region: lobby
+  
+  title: 'yourserver.net'
+  lines:
+    1:
+      - '§BRank: %rank%'
+      - ''
+      - '§6Balance: %money%'
+      - ''
+      - ''
+      - '§ayourTS§f.§2net'
+    2:
+      - '§3Rank: %rank%'
+      - ''
+      - '§eBalance: %money%'
+      - ''
+      - ''
+      - '§2yourTS§f.§anet'
+    3:
+      - '§3%player%'
+      - ''
+      - '§eLol'
+      - ''
+      - '§bsome other text'
+      - '§2yourTS§f.§anet'

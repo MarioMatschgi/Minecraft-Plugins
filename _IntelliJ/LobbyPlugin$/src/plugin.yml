@@ -1,0 +1,46 @@
+name: LobbyReloaded
+author: Mario_Matschgi
+version: 1.0
+main: at.mario.lobby.Main
+description: Lobby plugin
+softdepend: [Vault]
+
+commands:
+    lobby:
+        description: Lobby Main Command
+        aliases: [lb, spawn, hub, l]
+    fly:
+        description: Fly command
+    vanish:
+        description: Vanish command
+    visibility:
+        description: Player visibility command
+    build:
+        description: Allows building in the lobby
+    pet:
+        description: Pet command
+    gm:
+        description: Gamemode command
+    armor:
+        description: Armor command
+    silenthub:
+        description: Silenthub command
+    motd:
+        description: Motd command
+    broadcast:
+        description: Main command of Broadcast which allows to control and use all its features.
+    msg:
+        description: Send a private message to a player.
+    ping:
+        description: Get your ping.
+
+permissions:
+    lobby.pets.all:
+        description: Unlock all pets
+        default: OP
+    lobby.particle.all:
+        description: Unlock all particles
+        default: OP
+    lobby.armor.all:
+        description: Unlock all armor
+        default: OP

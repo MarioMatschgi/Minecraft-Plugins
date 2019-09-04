@@ -1,0 +1,10 @@
+name: MasterbuildersReloaded
+author: Mario_Matschgi
+version: 1.0
+main: at.mario.masterbuilders.Main
+description: Masterbuilders plugin
+
+commands:
+  masterbuilders:
+    description: Main command
+    aliases: [mb, mbr, masterbuildersr]

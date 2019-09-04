@@ -1,0 +1,25 @@
+name: SpaceBugUtils
+author: Mario_Matschgi
+version: 1.0
+main: at.mario.spacebugutils.Main
+description: SpaceBugUtils for 1.14
+
+commands:
+  onlinelongest:
+    description: Nothing here
+  silenttp:
+    description: Nothing here
+  sbureload:
+    description: Nothing here
+  sbspectate:
+    description: Nothing here
+  sbnick:
+    description: Nothing here
+  increasehomes:
+    description: Nothing here
+  sayraw:
+    description: Nothing here
+  showAlts:
+    description: Nothing here
+  namecolor:
+    description: Nothing here

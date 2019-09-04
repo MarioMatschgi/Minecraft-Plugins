@@ -1,0 +1,32 @@
+package at.mario.luckyploit.utils;
+
+import at.mario.luckyploit.Luckyploit;
+
+public class Logger {
+	
+	private Minecraft mc;
+	
+	public void loading(String text) {
+		System.out.println(Luckyploit.prefix + "§f[§6Loading§f]: " + text);
+	}
+	
+	public void info(String text) {
+		System.out.println(Luckyploit.prefix + "§f[§9Info§f]: " + text); 
+	}
+	
+	public void error(String text) {
+		System.out.println(Luckyploit.prefix + "§f[§cError§f]: " + text); 
+	}
+	
+	public void downloading(String text) {
+		System.out.println(Luckyploit.prefix + "§f[§eDownloading§f]: " + text); 
+	}
+	
+	public void creating(String text) {
+		System.out.println(Luckyploit.prefix + "§f[§6Creating§f]: " + text); 
+	}
+	
+	public void sendChatWithPrefix(String text) {
+		System.out.println(Luckyploit.prefix + "§f[§6Creating§f]: " + text); 
+	}
+}

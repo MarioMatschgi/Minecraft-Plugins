@@ -1,0 +1,18 @@
+package at.mario.luckyploit.modules;
+
+import net.minecraft.client.Minecraft;
+
+public class Module {
+	
+	private String name;
+	private String displayname;
+	private Category category;
+	
+	private int keyBind;
+	public static boolean colorMode = false;
+	public Minecraft mc = Minecraft.getMinecraft();
+	
+	public Module() {
+		
+	}
+}

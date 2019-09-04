@@ -1,0 +1,42 @@
+############################
+# Default Messages ENGLISH #
+############################
+
+# Use %prefix% for the prefix
+
+
+Messages:
+  prefix: '§f[§bLiefer§3Service §3Reloaded§f]§r'
+  
+  noPermission: '%prefix% §cYou dont have the permission to do this!'
+  
+  itemNotFound: '%prefix% §cThe item named §b"%item%" §ccould not be found§f!'
+  enterNumber: '%prefix% §cYou have to enter a positive number§f!'
+  
+  newRequest:
+    new: '§nl§f----------------------------------------§nl§aThere are §6%amount% §anew Requests§f!§nl§f----------------------------------------'
+    newWhilePlaying: '§nl§f----------------------------------------§nl§aThere is a new Request from §6%player%§nl§f----------------------------------------'
+    noNew: '§nl§f----------------------------------------§nl§cThrere are no new Requests§f!§nl§f----------------------------------------'
+  
+  command:
+    order:
+      enterAmount: '%prefix% §cYou have to enter an amount for the item you want§f!'
+      wrongMultiplier: '%prefix% §cYou have to enter an argument like "stacks" or "items"'
+      success: '%prefix% §aYou successfully ordered %amount%%stacks% of %item%§f!'
+    requests:
+      self:
+        deny: '%prefix% §aYou successfully denyed the request §6#%id% §afrom §6%player%§f!'
+        finished: '%prefix% §aYou successfully finished the request §6#%id% §afrom §6%player%§f!'
+      other:
+        deny: '%prefix% §cYour request of §6%amount%%stacks% %item% §chas been denyed§f!'
+        finished: '%prefix% §aYour order of §6%amount%%stacks% %item% §ahas been delivered§f!'
+
+  gui:
+    requestsInventory:
+      title: '§6Requests§f:'
+    optionsInventory: 
+      title: '§6Requests§f: §cOptions§f:'
+      deny: '§cDeny'
+      finish: '§aFinish'
+      inProgress: '§6Set in progress'
+      back: '§6Back'
