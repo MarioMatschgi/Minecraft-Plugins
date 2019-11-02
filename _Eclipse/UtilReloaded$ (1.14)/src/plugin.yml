@@ -9,7 +9,6 @@ commands:
     description: Gamemode command
   fly:
     description: Fly command
-    aliases: [gamemode]
   dupeitem:
     description: Dupe item in hand command
     aliases: [dupe]

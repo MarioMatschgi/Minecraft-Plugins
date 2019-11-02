@@ -1,0 +1,11 @@
+############################
+# Default Messages ENGLISH #
+############################
+
+# Use %prefix% for the prefix
+
+
+Messages:
+  prefix: '§f[§bUt§3il §3Reloaded§f]§r'
+  
+  noPermission: '%prefix% §cYou dont have the permission to do this!'

@@ -40,7 +40,7 @@ public class EnderchestCMD implements CommandExecutor {
 		MessagesManager mm = new MessagesManager();
 		DataManager dm = new DataManager();
 		
-		Inventory ecInv = Main.getPlugin().getServer().createInventory(null, 12 * 9, mm.getMessages().getString("Messages.ecTitle"));
+		Inventory ecInv = Main.getPlugin().getServer().createInventory(null, 6 * 9, mm.getMessages().getString("Messages.ecTitle"));
 		
 		if (dm.getData().get("Data." + p.getName() + ".privateenderchest") == null) {
 			EnderchestInventory.getInstance().newInventory(p);

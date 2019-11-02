@@ -1,0 +1,15 @@
+############################
+#    Scoreboard Config     #
+############################
+
+# Use %player% for Player, %money% for balance, %rank% for rank
+
+Scoreboard:
+  mainScoreboard:
+    title: '§3Resource §bBattle'
+    # Make sure nothing is duplicatet!
+    lines:
+    - '§eTime left§f: §6%timeleft%'
+    - ''
+    - '§6Player Scores§f:'
+    scoreFormat: '§2%player%§f: §a%score%'

@@ -24,7 +24,7 @@ public class InventoryCloseListener implements Listener {
 		MessagesManager mm = new MessagesManager();
 		DataManager dm = new DataManager();
 		
-		if (view.getTitle().equals(mm.getMessages().getString("Messages.ecTitle").replace("§r", ""))) {
+		if (view.getTitle().equals(mm.getMessages().getString("Messages.ecTitle"))) {
 			ItemStack[] content = inv.getContents();
 			ArrayList<ItemStack> data = new ArrayList<ItemStack>();
 			

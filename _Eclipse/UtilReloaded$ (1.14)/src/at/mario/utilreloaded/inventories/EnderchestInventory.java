@@ -26,7 +26,7 @@ public class EnderchestInventory {
 		MessagesManager mm = new MessagesManager();
 		DataManager dm = new DataManager();
 		
-		Inventory inv = Main.getPlugin().getServer().createInventory(null, 12 * 9, mm.getMessages().getString("Messages.ecTitle"));
+		Inventory inv = Main.getPlugin().getServer().createInventory(null, 6 * 9, mm.getMessages().getString("Messages.ecTitle"));
 
 		ItemStack[] content = inv.getContents();
 		ArrayList<ItemStack> data = new ArrayList<ItemStack>();

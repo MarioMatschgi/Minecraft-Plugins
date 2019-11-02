@@ -1,0 +1,11 @@
+name: HideNSeekReloaded
+author: Mario_Matschgi
+version: 1.0
+api-version: 1.13
+main: at.mario.hidenseek.Main
+description: Hide n seek plugin
+
+commands:
+  hidenseek:
+    description: Main command
+    aliases: [hs, hns, hideandseek]

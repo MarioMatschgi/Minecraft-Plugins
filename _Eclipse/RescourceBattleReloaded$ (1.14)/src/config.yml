@@ -1,0 +1,9 @@
+###################################
+#        General settings         #
+###################################
+
+Config:
+  language: English
+  # English, German, Deutsch
+  
+  scoreboardUpdateTicks: 10
