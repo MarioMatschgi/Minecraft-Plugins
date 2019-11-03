@@ -2,13 +2,13 @@ package at.mario.resourcebattlereloaded.commands;
 
 import java.util.Map.Entry;
 
+import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import at.mario.resourcebattlereloaded.Main;
-import at.mario.resourcebattlereloaded.countdowns.MainCountdown;
 
 public class ResourceBattleCMD implements CommandExecutor {
 	 
@@ -40,14 +40,23 @@ public class ResourceBattleCMD implements CommandExecutor {
 				}
 				else if (args[0].equalsIgnoreCase("start")) {
 					if (args.length >= 2) {
-						if (!MainCountdown.isRunning) {
-							MainCountdown.start(Main.parseInt(args[1]));
-						}
+						Main.StartBattle(Main.parseInt(args[1]));
 					}
+				}
+				else if (args[0].equalsIgnoreCase("stop")) {
+					Main.StopBattle();
 				}
 				else if (args[0].equalsIgnoreCase("setup")) {
 					if (args[1].equalsIgnoreCase("removeitem")) {
 						Main.RemoveItem(p.getItemInHand());
+					}
+					else if (args[1].equalsIgnoreCase("removeChest")) {
+						if (p.getTargetBlockExact(5) != null && p.getTargetBlockExact(5).getType() != Material.AIR)
+							Main.RemoveChest(p.getTargetBlockExact(5).getLocation());
+					}
+					else if (args[1].equalsIgnoreCase("addChest")) {
+						if (p.getTargetBlockExact(5) != null && p.getTargetBlockExact(5).getType() != Material.AIR)
+							Main.AddChest(p, p.getTargetBlockExact(5).getLocation());
 					}
 					else if (args.length >= 3) {
 						if (args[1].equalsIgnoreCase("additem")) {

@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Map.Entry;
 
 import org.bukkit.Bukkit;
+import org.bukkit.Location;
+import org.bukkit.block.Chest;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
@@ -17,7 +19,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import at.mario.resourcebattlereloaded.commands.ResourceBattleCMD;
 import at.mario.resourcebattlereloaded.commands.ResourceBattleTabComleter;
+import at.mario.resourcebattlereloaded.countdowns.MainCountdown;
 import at.mario.resourcebattlereloaded.manager.ConfigManagers.DataManager;
+import at.mario.resourcebattlereloaded.scoreboards.MainScoreboard;
 
 public class Main extends JavaPlugin implements Listener {
 
@@ -73,17 +77,38 @@ public class Main extends JavaPlugin implements Listener {
 	}
 	
 	
+	public static void StartBattle(int time) {
+		if (!MainCountdown.isRunning) {
+			MainCountdown.start(time);
+		}
+	}
+	public static void StopBattle() {
+		for (Player player: Bukkit.getOnlinePlayers())
+			MainScoreboard.removeScoreboard(player);
+		
+		
+	}
+	
 	
 	public static void UpdateScore(Player player) {
 		int total_score = 0;
 		
 		Inventory inv = player.getInventory();
 		HashMap<String, Integer> items = GetItemHashMap();
-		for (ItemStack itemStack : inv) {
-			if (itemStack != null && items.containsKey(itemStack.getType().toString())) {
+		for (ItemStack itemStack : inv)
+			if (itemStack != null && items.containsKey(itemStack.getType().toString()))
 				total_score += itemStack.getAmount() * items.get(itemStack.getType().toString());
+		
+		HashMap<Location, Player> playerChests = GetPlayerChestsHashMap();
+		for (Location loc : playerChests.keySet()) {
+			if (playerChests.get(loc).equals(player)) {
+				for (ItemStack itemStack : ((Chest) loc.getWorld().getBlockAt(loc).getState()).getInventory()) {
+					if (itemStack != null && items.containsKey(itemStack.getType().toString()))
+						total_score += itemStack.getAmount() * items.get(itemStack.getType().toString());
+				}
 			}
 		}
+		
 		
 		playerScores.put(player, total_score);
 	}
@@ -146,6 +171,61 @@ public class Main extends JavaPlugin implements Listener {
 		dm.saveData();
 	}
 	
+	public static void AddChest(Player player, Location loc) {
+		DataManager dm = new DataManager();
+		
+		dm.getData().get("Data.playerChests");
+		
+		HashMap<Location, Player> playerChests = GetPlayerChestsHashMap();
+		playerChests.put(loc, player);
+		SetPlayerChestsHashMap(playerChests);
+	}
+	public static void RemoveChest(Location loc) {
+		DataManager dm = new DataManager();
+		
+		dm.getData().get("Data.playerChests");
+
+		HashMap<Location, Player> playerChests = GetPlayerChestsHashMap();
+		playerChests.remove(loc);
+		SetPlayerChestsHashMap(playerChests);
+	}
+	@SuppressWarnings("unchecked")
+	public static HashMap<Location, Player> GetPlayerChestsHashMap() {
+		DataManager dm = new DataManager();
+		
+		HashMap<Location, Player> playerChests = new HashMap<Location, Player>();
+		if (dm.getData().get("Data.playerChests.keys") != null && dm.getData().get("Data.playerChests.values") != null) {
+			List<Location> locations = (List<Location>) dm.getData().get("Data.playerChests.keys");
+			List<String> playerNames = (List<String>) dm.getData().get("Data.playerChests.values");
+			
+			for (int i = 0; i < Math.min(locations.size(), playerNames.size()); i++)
+				playerChests.put(locations.get(i), Bukkit.getPlayer(playerNames.get(i)));
+		}
+		
+		return playerChests;
+	}
+	public static void SetPlayerChestsHashMap(HashMap<Location, Player> playerChests) {
+		DataManager dm = new DataManager();
+
+		Bukkit.broadcastMessage("SAVE");
+		List<Location> locations = new ArrayList<Location>();
+		List<String> playerNames = new ArrayList<String>();
+		for (Entry<Location, Player> entry : playerChests.entrySet()) {
+			Location key = entry.getKey();
+			Player value = entry.getValue();
+		    
+		    if (key == null || value == null)
+		    	continue;
+			
+		    locations.add(key);
+		    playerNames.add(value.getName());
+		}
+		
+		dm.getData().set("Data.playerChests.keys", locations);
+		dm.getData().set("Data.playerChests.values", playerNames);
+		
+		dm.saveData();
+	}
 	
 	
 	

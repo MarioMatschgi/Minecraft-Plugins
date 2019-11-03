@@ -23,6 +23,8 @@ public class ResourceBattleTabComleter implements TabCompleter {
 			if (args[0].equalsIgnoreCase("setup")) {
 				list.add("additem");
 				list.add("removeitem");
+				list.add("addchest");
+				list.add("removechest");
 			}
 		}
 		
