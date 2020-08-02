@@ -1,0 +1,40 @@
+############################
+#      Tablist Config      #
+############################
+
+# Use %player% for Player, %money% for balance, %rank% for rank, %online% for the amount of online players, %maxplayers% for the amount of maximum players
+
+Tablist: 
+  enabled: true
+  # The time it takes to change in TICKS // 20 TICKS is 1 second
+  time: 20
+  # Region: world tablist in the whole world, lobby tablist in the whole lobby, server tablist on the whole server
+  region: lobby
+  
+  lines:
+    header:
+      1:
+        - '§eOnline Player§f: §a%online% §f/ §c%maxplayers%'
+        - ''
+        - '§bWelcome: §6%player%'
+        - ''
+        - '§dYour Rank§f: §r%rank%'
+        - ''
+        - '§7Your Balance§f: §9%money%'
+      2:
+        - '§6Online Player§f: §a%online% §f/ §c%maxplayers%'
+        - ''
+        - '§3Welcome: §6%player%'
+        - ''
+        - '§5Your Rank§f: §r%rank%'
+        - ''
+        - '§8Your Balance§f: §9%money%'
+    footer:
+      1:
+        - ''
+        - '§aHave fun playing Miencraft on'
+        - '§byourserver§f.§3net'
+      2:
+        - ''
+        - '§2Have fun playing Miencraft on'
+        - '§3yourserver§f.§bnet'

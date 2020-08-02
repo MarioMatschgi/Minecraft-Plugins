@@ -1,0 +1,10 @@
+name: ResourceBattleReloaded
+author: Mario_Matschgi
+version: 1.0
+main: at.mario.resourcebattlereloaded.Main
+description: Util plugin
+
+commands:
+  resourcebattle:
+    description: Main cmd
+    aliases: [rb, resourcebattlereloaded]

@@ -1,0 +1,11 @@
+############################
+# Default Messages GERMAN #
+############################
+
+# Benutze %prefix% für das Prefix
+
+
+Messages:
+  prefix: '§f[§bUt§3il §3Reloaded§f]§r'
+  
+  noPermission: '%prefix% §cDafür hat du keine Rechte!'
