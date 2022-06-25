@@ -56,7 +56,7 @@ public class LobbyScoreboard {
 			obj.getScore(string.replace("%money%", money).replace("%arena%", arenaName).replace("%time%", seconds + 1 +"").replace("%missingplayers%", missingPlayers+"").replace("%currentplayers%", currentPlayers+"")).
 				setScore((i * -1) + list.size());
 		}
-		obj.getScore("                                        ").setScore(list.size() + 1);
+		// obj.getScore("                                     ").setScore(list.size() + 1);
 		
 		p.setScoreboard(board);
 	}

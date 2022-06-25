@@ -207,7 +207,7 @@ public class FinishedScoreboard {
 					
 					.setScore( (i * -1) + list.size());
 		}
-		obj.getScore("                                        ").setScore(list.size() + 1);
+		// obj.getScore("                                     ").setScore(list.size() + 1);
 		
 		p.setScoreboard(board);
 	}

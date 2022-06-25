@@ -26,7 +26,13 @@ public class PlayerChatListener implements Listener {
 		MessagesManager mm = new MessagesManager();
 		
 		Player p = e.getPlayer();
-		String msg = mm.getMessages().getString("Messages.chatFormat").replace("%prefix%", mm.getMessages().getString("Messages.prefix")).replace("%msg%", e.getMessage()).replace("%player%", p.getDisplayName());
+		
+		String msg = mm.getMessages().getString("Messages.chatFormat");
+		if (msg.isBlank()) {
+			return;
+		}
+		
+		msg = msg.replace("%prefix%", mm.getMessages().getString("Messages.prefix")).replace("%msg%", e.getMessage()).replace("%player%", p.getDisplayName());
 		
 		ConfigurationSection configSection = dm.getData().getConfigurationSection("Data.arenas");
 		if (configSection != null) {
